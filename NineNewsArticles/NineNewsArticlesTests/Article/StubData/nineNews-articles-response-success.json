@@ -1,0 +1,5206 @@
+{
+  "id": 67184313,
+  "categories": [
+
+  ],
+  "authors": [
+
+  ],
+  "url": "/content/dam/lists/1/3/z/z/q/x/list.html",
+  "lastModified": 1675393379690,
+  "onTime": 1425955024417,
+  "sponsored": false,
+  "displayName": "AFR iPad Editor's Choice",
+  "assets": [
+    {
+      "id": 1520634522,
+      "categories": [
+        {
+          "name": "Residential",
+          "sectionPath": "/real-estate/residential",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Nila Sweeney",
+          "title": "Reporter",
+          "email": "nila.sweeney@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/real-estate/residential/blown-away-by-demand-rental-crisis-only-getting-worse-20230201-p5ch3u",
+      "lastModified": 1675404460646,
+      "sponsored": false,
+      "headline": "‘Blown away by demand’: Why rents are only going higher",
+      "indexHeadline": "‘Blown away by demand’: Why rents are only going higher",
+      "tabletHeadline": "",
+      "theAbstract": "In the past 12 months, rents surged at a record-breaking pace of 14.6 per cent for houses and by 17.6 per cent for units as vacancies plummeted to a record low.",
+      "byLine": "Nila Sweeney",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520633596,
+          "categories": [
+            {
+              "name": "Residential",
+              "sectionPath": "/real-estate/residential",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Nick Lenaghan",
+              "title": "Property Editor",
+              "email": "nlenaghan@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+
+              ]
+            },
+            {
+              "name": "Nila Sweeney",
+              "title": "Reporter",
+              "email": "nila.sweeney@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/real-estate/residential/inner-city-rents-may-jump-5pc-with-return-of-55-000-chinese-students-20230129-p5cge4",
+          "lastModified": 1675122456933,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Inner-city rents may jump 5pc with return of 50,000 Chinese students",
+          "timeStamp": 1675060332000
+        },
+        {
+          "id": 1520632176,
+          "categories": [
+            {
+              "name": "Residential",
+              "sectionPath": "/real-estate/residential",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Nila Sweeney",
+              "title": "Reporter",
+              "email": "nila.sweeney@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/real-estate/residential/new-home-sales-listings-slump-as-interest-rates-rise-20230124-p5cfao",
+          "lastModified": 1674698602018,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "New home sales slump as buyers dump contracts",
+          "timeStamp": 1674622147000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031731070,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/s/e/image.related.afrArticleLead.1536x1010.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1675331962940,
+          "sponsored": false,
+          "description": "Diana Eloise Binay was forced to offer up to 20 per cent above the asking rents to secure a rental home.",
+          "photographer": "Louie Douvis",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675331962940
+        },
+        {
+          "id": 1031731070,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/s/e/image.related.articleLeadwide.1500x844.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1675331962940,
+          "sponsored": false,
+          "description": "Diana Eloise Binay was forced to offer up to 20 per cent above the asking rents to secure a rental home.",
+          "photographer": "Louie Douvis",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675331962940
+        },
+        {
+          "id": 1031731518,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/l/4/u/image.related.articleLeadwide.1500x844.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1675384904133,
+          "sponsored": false,
+          "description": "Sydney-based landlord Free Morrison says he was shocked to get $50 more rent on his new investment property.",
+          "photographer": "Louie Douvis ",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675384904133
+        },
+        {
+          "id": 1031731518,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/l/4/u/image.related.afrArticleInline.620x0.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1675384904133,
+          "sponsored": false,
+          "description": "Sydney-based landlord Free Morrison says he was shocked to get $50 more rent on his new investment property.",
+          "photographer": "Louie Douvis ",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1675384904133
+        },
+        {
+          "id": 1029597621,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/0/z/u/l/x/image.related.wideLandscape.1500x844.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1525844538615,
+          "sponsored": false,
+          "description": " ",
+          "photographer": " ",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1525844538615
+        },
+        {
+          "id": 1029597621,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/0/z/u/l/x/image.related.thumbnail.375x250.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1525844538615,
+          "sponsored": false,
+          "description": " ",
+          "photographer": " ",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1525844538615
+        },
+        {
+          "id": 1029597621,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/0/z/u/l/x/image.related.afrIndexLead.1536x1010.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1525844538615,
+          "sponsored": false,
+          "description": " ",
+          "photographer": " ",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1525844538615
+        },
+        {
+          "id": 1029597621,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/0/z/u/l/x/image.related.landscape.1174x783.p5ch3u.13zzqx.png/1675404460646.jpg",
+          "lastModified": 1525844538615,
+          "sponsored": false,
+          "description": " ",
+          "photographer": " ",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1525844538615
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "‘Blown away by demand’: Why rents are only going higher",
+        "overrideAbstract": "In the past 12 months, rents surged at a record-breaking pace of 14.6 per cent for houses and by 17.6 per cent for units as vacancies plummeted to a record low."
+      },
+      "timeStamp": 1675388733000
+    },
+    {
+      "id": 1520635226,
+      "categories": [
+        {
+          "name": "Foreign Affairs",
+          "sectionPath": "/news/policy/foreign-affairs",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Hans van Leeuwen",
+          "title": "Europe correspondent",
+          "email": "hans.vanleeuwen@afr.com ",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030191945,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/6/x/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553044534165.png",
+              "lastModified": 1553044534165,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553044534165
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/news/policy/foreign-affairs/why-penny-got-a-pounding-in-britain-this-week-20230202-p5chne",
+      "lastModified": 1675389499071,
+      "sponsored": false,
+      "headline": "Why Wong got a walloping in Britain this week",
+      "indexHeadline": "Why Wong got a walloping in Britain this week",
+      "tabletHeadline": "",
+      "theAbstract": "Foreign Minister Penny Wong was trying to make the case for the UK’s growing activism in our region - but she ran the risk of almost doing the opposite.",
+      "byLine": "Hans van Leeuwen",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520635165,
+          "categories": [
+            {
+              "name": "Foreign Affairs",
+              "sectionPath": "/news/policy/foreign-affairs",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Hans van Leeuwen",
+              "title": "Europe correspondent",
+              "email": "hans.vanleeuwen@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030191945,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/6/x/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553044534165.png",
+                  "lastModified": 1553044534165,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553044534165
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/policy/foreign-affairs/australia-must-push-back-on-other-nations-attempts-to-define-us-wong-20230202-p5chlp",
+          "lastModified": 1675395531366,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Australia must resist other nations’ attempts to define us: Wong",
+          "timeStamp": 1675356817000
+        },
+        {
+          "id": 1520634619,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+
+          ],
+          "url": "http://www.afr.com/news/politics/national/indo-pacific-conflict-would-be-catastrophic-20230201-p5ch6j",
+          "lastModified": 1675228953586,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Indo-Pacific conflict would be catastrophic",
+          "timeStamp": 1675227346000
+        },
+        {
+          "id": 1520634264,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Andrew Tillett",
+              "title": "Political Correspondent",
+              "email": "andrew.tillett@afr.com",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030200013,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/f/1/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553474398968.png",
+                  "lastModified": 1553474398968,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553474398968
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/politics/national/uk-euro-engagement-helps-maintain-balance-with-china-wong-20230131-p5cgwo",
+          "lastModified": 1675211243508,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "UK, Euro engagement helps maintain balance with China: Wong",
+          "timeStamp": 1675173600000
+        },
+        {
+          "id": 1520634737,
+          "categories": [
+            {
+              "name": "Europe",
+              "sectionPath": "/news/world/europe",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Hans van Leeuwen",
+              "title": "Europe correspondent",
+              "email": "hans.vanleeuwen@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030191945,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/6/x/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553044534165.png",
+                  "lastModified": 1553044534165,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553044534165
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/world/europe/inside-australia-s-mission-to-turn-everyday-ukrainians-into-war-heroes-20230201-p5ch9t",
+          "lastModified": 1675297929443,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Inside the mission to turn Ukrainians into war heroes",
+          "timeStamp": 1675282443000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031731122,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/t/u/image.related.wideLandscape.1500x844.p5chne.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675355482049,
+          "sponsored": false,
+          "description": "Foreign Minister Penny Wong and UK Foreign Secretary James Cleverly in Horatio Nelson’s cabin aboard HMS Victory.",
+          "photographer": "Getty",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675355482049
+        },
+        {
+          "id": 1031731122,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/t/u/image.related.thumbnail.375x250.p5chne.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675355482049,
+          "sponsored": false,
+          "description": "Foreign Minister Penny Wong and UK Foreign Secretary James Cleverly in Horatio Nelson’s cabin aboard HMS Victory.",
+          "photographer": "Getty",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675355482049
+        },
+        {
+          "id": 1031731122,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/t/u/image.related.afrArticleLead.1536x1010.p5chne.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675355482049,
+          "sponsored": false,
+          "description": "Foreign Minister Penny Wong and UK Foreign Secretary James Cleverly in Horatio Nelson’s cabin aboard HMS Victory.",
+          "photographer": "Getty",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675355482049
+        },
+        {
+          "id": 1031731122,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/t/u/image.related.articleLeadwide.1500x844.p5chne.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675355482049,
+          "sponsored": false,
+          "description": "Foreign Minister Penny Wong and UK Foreign Secretary James Cleverly in Horatio Nelson’s cabin aboard HMS Victory.",
+          "photographer": "Getty",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675355482049
+        },
+        {
+          "id": 1031731122,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/t/u/image.related.afrIndexLead.1536x1010.p5chne.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675355482049,
+          "sponsored": false,
+          "description": "Foreign Minister Penny Wong and UK Foreign Secretary James Cleverly in Horatio Nelson’s cabin aboard HMS Victory.",
+          "photographer": "Getty",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675355482049
+        },
+        {
+          "id": 1031731122,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/t/u/image.related.landscape.1174x783.p5chne.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675355482049,
+          "sponsored": false,
+          "description": "Foreign Minister Penny Wong and UK Foreign Secretary James Cleverly in Horatio Nelson’s cabin aboard HMS Victory.",
+          "photographer": "Getty",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675355482049
+        }
+      ],
+      "signPost": "ANALYSIS",
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Why Wong got a walloping in Britain this week",
+        "overrideAbstract": "Foreign Minister Penny Wong was trying to make the case for the UK’s growing activism in our region - but she ran the risk of almost doing the opposite."
+      },
+      "timeStamp": 1675382574000
+    },
+    {
+      "id": 1520635237,
+      "categories": [
+        {
+          "name": "Workplace",
+          "sectionPath": "/leadership/workplace",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "David Marin-Guzman",
+          "title": "Workplace correspondent",
+          "email": "david.marin-guzman@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030200052,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/g/4/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553475148182.png",
+              "lastModified": 1553475148182,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553475148182
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/leadership/workplace/flight-attendant-unfairly-sacked-from-billionaire-s-private-jet-20230202-p5chnp",
+      "lastModified": 1675392639229,
+      "sponsored": false,
+      "headline": "Flight attendant unfairly sacked from billionaire’s private jet",
+      "indexHeadline": "Flight attendant unfairly sacked from billionaire’s private jet",
+      "tabletHeadline": "",
+      "theAbstract": "The Fair Work Commission has found the dismissal was unfair because “frozen croissants warmed up” would not have sufficed for the soccer club owner and his wife.",
+      "byLine": "David Marin-Guzman",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520568149,
+          "categories": [
+            {
+              "name": "Workplace",
+              "sectionPath": "/leadership/workplace",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "David Marin-Guzman",
+              "title": "Workplace correspondent",
+              "email": "david.marin-guzman@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030200052,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/g/4/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553475148182.png",
+                  "lastModified": 1553475148182,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553475148182
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/leadership/workplace/virgin-sacking-of-crew-boss-for-watching-movie-sleeping-harsh-20220715-p5b1w5",
+          "lastModified": 1657863855318,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Virgin sacking of crew boss for watching film, sleeping ‘harsh’",
+          "timeStamp": 1657862591000
+        },
+        {
+          "id": 1520380043,
+          "categories": [
+            {
+              "name": "Agriculture",
+              "sectionPath": "/business/agriculture",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Jemima Whyte",
+              "title": "Senior Reporter",
+              "email": "jemima.whyte@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030200155,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/i/z/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553475915255.png",
+                  "lastModified": 1553475915255,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553475915255
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/business/agriculture/how-to-force-a-deal-using-common-sense-and-charm-20210208-p570qz",
+          "lastModified": 1615516397550,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "How to force a deal – using common sense and charm",
+          "timeStamp": 1615505529000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1030992154,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/t/q/m/y/image.related.wideLandscape.1500x844.p5chnp.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1612326824448,
+          "sponsored": false,
+          "description": "Paul Lederer is the co-owner and chairman of A-League football club Western Sydney Wanderers.",
+          "photographer": "Steven Saphore",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1612326824448
+        },
+        {
+          "id": 1030992154,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/t/q/m/y/image.related.thumbnail.375x250.p5chnp.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1612326824448,
+          "sponsored": false,
+          "description": "Paul Lederer is the co-owner and chairman of A-League football club Western Sydney Wanderers.",
+          "photographer": "Steven Saphore",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1612326824448
+        },
+        {
+          "id": 1030992154,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/t/q/m/y/image.related.afrArticleLead.1536x1010.p5chnp.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1612326824448,
+          "sponsored": false,
+          "description": "Paul Lederer is the co-owner and chairman of A-League football club Western Sydney Wanderers.",
+          "photographer": "Steven Saphore",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1612326824448
+        },
+        {
+          "id": 1030992154,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/t/q/m/y/image.related.articleLeadwide.1500x844.p5chnp.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1612326824448,
+          "sponsored": false,
+          "description": "Paul Lederer is the co-owner and chairman of A-League football club Western Sydney Wanderers.",
+          "photographer": "Steven Saphore",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1612326824448
+        },
+        {
+          "id": 1030992154,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/t/q/m/y/image.related.afrIndexLead.1536x1010.p5chnp.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1612326824448,
+          "sponsored": false,
+          "description": "Paul Lederer is the co-owner and chairman of A-League football club Western Sydney Wanderers.",
+          "photographer": "Steven Saphore",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1612326824448
+        },
+        {
+          "id": 1030992154,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/t/q/m/y/image.related.landscape.1174x783.p5chnp.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1612326824448,
+          "sponsored": false,
+          "description": "Paul Lederer is the co-owner and chairman of A-League football club Western Sydney Wanderers.",
+          "photographer": "Steven Saphore",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1612326824448
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "Approved",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Flight attendant unfairly sacked from billionaire’s private jet",
+        "overrideAbstract": "The Fair Work Commission has found the dismissal was unfair because “frozen croissants warmed up” would not have sufficed for the soccer club owner and his wife."
+      },
+      "timeStamp": 1675390300000
+    },
+    {
+      "id": 1520634813,
+      "categories": [
+        {
+          "name": "Banking & Finance",
+          "sectionPath": "/business/banking-and-finance",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Simon Evans",
+          "title": "Senior Reporter",
+          "email": "simon.evans@afr.com ",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030202070,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/t/0/6/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553562399256.png",
+              "lastModified": 1553562399256,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553562399256
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/business/banking-and-finance/anz-ceo-predicts-more-rate-rises-from-rba-than-people-expect-20230201-p5chbx",
+      "lastModified": 1675390159098,
+      "sponsored": false,
+      "headline": "ANZ’s Elliott tips more rate rises than people expect",
+      "indexHeadline": "ANZ’s Elliott tips more rate rises than people expect",
+      "tabletHeadline": "",
+      "theAbstract": "Shayne Elliott says strong demand in the economy and low unemployment rates mean the Reserve bank is likely to go harder.",
+      "byLine": "Simon Evans",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520635029,
+          "categories": [
+            {
+              "name": "Economy",
+              "sectionPath": "/news/economy",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Ronald Mizen",
+              "title": "Online News Editor",
+              "email": "ronald.mizen@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1026221558,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/g/y/z/h/m/e/image.imgtype.afrWoodcutAuthorImage.140x140.png/1507775866674.png",
+                  "lastModified": 1507775866674,
+                  "sponsored": false,
+                  "description": "Ronald Mizen AFR Woodcut",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1507775866674
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/economy/inflation-will-stay-higher-for-longer-than-expected-says-citigroup-20230202-p5chhx",
+          "lastModified": 1675319163765,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Inflation will stay higher for longer than expected, says Citigroup",
+          "timeStamp": 1675315988000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031631072,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/7/f/m/o/image.related.wideLandscape.1500x844.p5chbx.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1666832390260,
+          "sponsored": false,
+          "description": "ANZ chief executive Shayne Elliott. ",
+          "photographer": "Arsineh Houspian.",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1666832390260
+        },
+        {
+          "id": 1031631072,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/7/f/m/o/image.related.thumbnail.375x250.p5chbx.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1666832390260,
+          "sponsored": false,
+          "description": "ANZ chief executive Shayne Elliott. ",
+          "photographer": "Arsineh Houspian.",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1666832390260
+        },
+        {
+          "id": 1031631072,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/7/f/m/o/image.related.afrArticleLead.1536x1010.p5chbx.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1666832390260,
+          "sponsored": false,
+          "description": "ANZ chief executive Shayne Elliott. ",
+          "photographer": "Arsineh Houspian.",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1666832390260
+        },
+        {
+          "id": 1031631072,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/7/f/m/o/image.related.articleLeadwide.1500x844.p5chbx.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1666832390260,
+          "sponsored": false,
+          "description": "ANZ chief executive Shayne Elliott. ",
+          "photographer": "Arsineh Houspian.",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1666832390260
+        },
+        {
+          "id": 1031631072,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/7/f/m/o/image.related.afrIndexLead.1536x1010.p5chbx.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1666832390260,
+          "sponsored": false,
+          "description": "ANZ chief executive Shayne Elliott. ",
+          "photographer": "Arsineh Houspian.",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1666832390260
+        },
+        {
+          "id": 1031631072,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/7/f/m/o/image.related.landscape.1174x783.p5chbx.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1666832390260,
+          "sponsored": false,
+          "description": "ANZ chief executive Shayne Elliott. ",
+          "photographer": "Arsineh Houspian.",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1666832390260
+        }
+      ],
+      "companies": [
+        {
+          "id": 997133180,
+          "companyCode": "ANZ",
+          "companyName": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED",
+          "abbreviatedName": "ANZ Banking Grp Ltd",
+          "exchange": "ASX",
+          "companyNumber": "5357522"
+        }
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "ANZ’s Elliott tips more rate rises than people expect",
+        "overrideAbstract": "Shayne Elliott says strong demand in the economy and low unemployment rates mean the Reserve bank is likely to go harder."
+      },
+      "timeStamp": 1675382125000
+    },
+    {
+      "id": 1520634546,
+      "categories": [
+        {
+          "name": "Personal Finance",
+          "sectionPath": "/personal-finance",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Duncan Hughes",
+          "title": "Reporter",
+          "email": "duhughes@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030200132,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/i/c/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553475385433.png",
+              "lastModified": 1553475385433,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553475385433
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/personal-finance/gloomy-outlook-set-to-overshadow-first-weekend-of-auctions-20230201-p5ch4i",
+      "lastModified": 1675379924036,
+      "sponsored": false,
+      "headline": "Prestige buyers’ agents claim the market is ‘dead’",
+      "indexHeadline": "Prestige buyers’ agents claim the market is ‘dead’",
+      "tabletHeadline": "",
+      "theAbstract": "In what is historically a busy time for the industry, buyers and sellers are holding back amid growing uncertainty about market direction.",
+      "byLine": "Duncan Hughes",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520631836,
+          "categories": [
+            {
+              "name": "Commercial",
+              "sectionPath": "/real-estate/commercial",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Robert Harley",
+              "title": "Contributor",
+              "email": "rharley@afr.com",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030192463,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/l/b/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553052723043.png",
+                  "lastModified": 1553052723043,
+                  "sponsored": false,
+                  "description": " ",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553052723043
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/real-estate/commercial/the-property-sector-where-it-pays-to-focus-on-the-basics-20230124-p5cf18",
+          "lastModified": 1674600826636,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "The property sector where it pays to focus on the basics",
+          "timeStamp": 1674583200000
+        },
+        {
+          "id": 1520631392,
+          "categories": [
+            {
+              "name": "Residential",
+              "sectionPath": "/real-estate/residential",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Ronald Mizen",
+              "title": "Online News Editor",
+              "email": "ronald.mizen@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1026221558,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/g/y/z/h/m/e/image.imgtype.afrWoodcutAuthorImage.140x140.png/1507775866674.png",
+                  "lastModified": 1507775866674,
+                  "sponsored": false,
+                  "description": "Ronald Mizen AFR Woodcut",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1507775866674
+                }
+              ]
+            },
+            {
+              "name": "Nila Sweeney",
+              "title": "Reporter",
+              "email": "nila.sweeney@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/real-estate/residential/property-price-slump-slows-from-record-speed-20230122-p5ceow",
+          "lastModified": 1674583200000,
+          "onTime": 1674583200000,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Property price slump slows from record speed",
+          "timeStamp": 1674583200000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031730400,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/9/s/image.related.wideLandscape.1500x844.p5ch4i.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675302287605,
+          "sponsored": false,
+          "description": "Under the hammer on Saturday: the New Farm property belonging to Magub’s family.",
+          "photographer": " ",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675302287605
+        },
+        {
+          "id": 1031730400,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/9/s/image.related.thumbnail.375x250.p5ch4i.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675302287605,
+          "sponsored": false,
+          "description": "Under the hammer on Saturday: the New Farm property belonging to Magub’s family.",
+          "photographer": " ",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675302287605
+        },
+        {
+          "id": 1031730400,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/9/s/image.related.afrArticleLead.1536x1010.p5ch4i.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675302287605,
+          "sponsored": false,
+          "description": "Under the hammer on Saturday: the New Farm property belonging to Magub’s family.",
+          "photographer": " ",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675302287605
+        },
+        {
+          "id": 1031730400,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/9/s/image.related.articleLeadwide.1500x844.p5ch4i.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675302287605,
+          "sponsored": false,
+          "description": "Under the hammer on Saturday: the New Farm property belonging to Magub’s family.",
+          "photographer": " ",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675302287605
+        },
+        {
+          "id": 1031730400,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/9/s/image.related.afrIndexLead.1536x1010.p5ch4i.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675302287605,
+          "sponsored": false,
+          "description": "Under the hammer on Saturday: the New Farm property belonging to Magub’s family.",
+          "photographer": " ",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675302287605
+        },
+        {
+          "id": 1031730400,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/9/s/image.related.landscape.1174x783.p5ch4i.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675302287605,
+          "sponsored": false,
+          "description": "Under the hammer on Saturday: the New Farm property belonging to Magub’s family.",
+          "photographer": " ",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675302287605
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Prestige buyers’ agents claim the market is ‘dead’",
+        "overrideAbstract": "In what is historically a busy time for the industry, buyers and sellers are holding back amid growing uncertainty about market direction."
+      },
+      "timeStamp": 1675360800000
+    },
+    {
+      "id": 1520634817,
+      "categories": [
+        {
+          "name": "Automobile",
+          "sectionPath": "/business/transport/automobile",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Simon Evans",
+          "title": "Senior Reporter",
+          "email": "simon.evans@afr.com ",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030202070,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/t/0/6/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553562399256.png",
+              "lastModified": 1553562399256,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553562399256
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/business/transport/automobile/tesla-model-3-the-third-highest-selling-car-in-australia-20230201-p5chc1",
+      "lastModified": 1675394568326,
+      "sponsored": false,
+      "headline": "Tesla Model 3 the third highest selling car in Australia",
+      "indexHeadline": "Tesla Model 3 the third highest selling car in Australia",
+      "tabletHeadline": "",
+      "theAbstract": "New vehicle sales in January were the strongest in five years, with Tesla price cuts helping push it to the highest ranking ever for an EV.",
+      "byLine": "Simon Evans",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520631594,
+          "categories": [
+            {
+              "name": "Life and Leisure",
+              "sectionPath": "/brand/life-and-leisure",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Tony Davis",
+              "title": "Motoring Writer",
+              "email": "tony.davis@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030202077,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/t/0/d/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553562605606.png",
+                  "lastModified": 1553562605606,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553562605606
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/brand/life-and-leisure/which-ev-will-you-choose-our-guide-to-going-electric-in-2023-20230123-p5ceui",
+          "lastModified": 1675299405767,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Which EV will you choose? Our guide to going electric in 2023",
+          "timeStamp": 1675274400000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031352611,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/1/g/r/n/image.related.wideLandscape.1500x844.p5chc1.13zzqx.png/1675394568326.jpg",
+          "lastModified": 1643780270175,
+          "sponsored": false,
+          "description": "The Tesla Model 3 was the third highest selling vehicle of all players in Australia in January. ",
+          "photographer": " ",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1643780270175
+        },
+        {
+          "id": 1031352611,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/1/g/r/n/image.related.thumbnail.375x250.p5chc1.13zzqx.png/1675394568326.jpg",
+          "lastModified": 1643780270175,
+          "sponsored": false,
+          "description": "The Tesla Model 3 was the third highest selling vehicle of all players in Australia in January. ",
+          "photographer": " ",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1643780270175
+        },
+        {
+          "id": 1031352611,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/1/g/r/n/image.related.afrArticleLead.1536x1010.p5chc1.13zzqx.png/1675394568326.jpg",
+          "lastModified": 1643780270175,
+          "sponsored": false,
+          "description": "The Tesla Model 3 was the third highest selling vehicle of all players in Australia in January. ",
+          "photographer": " ",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1643780270175
+        },
+        {
+          "id": 1031352611,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/1/g/r/n/image.related.articleLeadwide.1500x844.p5chc1.13zzqx.png/1675394568326.jpg",
+          "lastModified": 1643780270175,
+          "sponsored": false,
+          "description": "The Tesla Model 3 was the third highest selling vehicle of all players in Australia in January. ",
+          "photographer": " ",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1643780270175
+        },
+        {
+          "id": 1031352611,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/1/g/r/n/image.related.afrIndexLead.1536x1010.p5chc1.13zzqx.png/1675394568326.jpg",
+          "lastModified": 1643780270175,
+          "sponsored": false,
+          "description": "The Tesla Model 3 was the third highest selling vehicle of all players in Australia in January. ",
+          "photographer": " ",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1643780270175
+        },
+        {
+          "id": 1031352611,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/1/g/r/n/image.related.landscape.1174x783.p5chc1.13zzqx.png/1675394568326.jpg",
+          "lastModified": 1643780270175,
+          "sponsored": false,
+          "description": "The Tesla Model 3 was the third highest selling vehicle of all players in Australia in January. ",
+          "photographer": " ",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1643780270175
+        }
+      ],
+      "companies": [
+        {
+          "id": 996967745,
+          "companyCode": "APE",
+          "companyName": "AP EAGERS LIMITED",
+          "abbreviatedName": "A.P. Eagers Ltd",
+          "exchange": "ASX",
+          "companyNumber": "9680013"
+        }
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Tesla Model 3 the third highest selling car in Australia",
+        "overrideAbstract": "New vehicle sales in January were the strongest in five years, with Tesla price cuts helping push it to the highest ranking ever for an EV."
+      },
+      "timeStamp": 1675384709000
+    },
+    {
+      "id": 1520634737,
+      "categories": [
+        {
+          "name": "Europe",
+          "sectionPath": "/news/world/europe",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Hans van Leeuwen",
+          "title": "Europe correspondent",
+          "email": "hans.vanleeuwen@afr.com ",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030191945,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/6/x/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553044534165.png",
+              "lastModified": 1553044534165,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553044534165
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/news/world/europe/inside-australia-s-mission-to-turn-everyday-ukrainians-into-war-heroes-20230201-p5ch9t",
+      "lastModified": 1675297929443,
+      "sponsored": false,
+      "headline": "Inside the mission to turn Ukrainians into war heroes",
+      "indexHeadline": "Inside the mission to turn Ukrainians into war heroes",
+      "tabletHeadline": "",
+      "theAbstract": "In England for training, Ukrainian army volunteers are raw recruits. Prepping them for battle is proving an inspirational experience for the Aussies involved.",
+      "byLine": "Hans van Leeuwen",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520628924,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Andrew Tillett",
+              "title": "Political Correspondent",
+              "email": "andrew.tillett@afr.com",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030200013,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/f/1/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553474398968.png",
+                  "lastModified": 1553474398968,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553474398968
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/politics/national/aussie-troops-have-five-weeks-to-turn-ordinary-ukrainians-into-soldiers-20230116-p5ccsc",
+          "lastModified": 1674026763014,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Aussie troops have five weeks to turn ordinary Ukrainians into soldiers",
+          "timeStamp": 1674022850000
+        },
+        {
+          "id": 1520632500,
+          "categories": [
+            {
+              "name": "Europe",
+              "sectionPath": "/news/world/europe",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Hans van Leeuwen",
+              "title": "Europe correspondent",
+              "email": "hans.vanleeuwen@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030191945,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/6/x/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553044534165.png",
+                  "lastModified": 1553044534165,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553044534165
+                }
+              ]
+            },
+            {
+              "name": "Andrew Tillett",
+              "title": "Political Correspondent",
+              "email": "andrew.tillett@afr.com",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030200013,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/f/1/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553474398968.png",
+                  "lastModified": 1553474398968,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553474398968
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/world/europe/germany-confirms-it-will-send-leopard-tanks-to-ukraine-20230125-p5cfjo",
+          "lastModified": 1674694003584,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Tank battalions headed for Ukraine, as US and Germany finally commit",
+          "timeStamp": 1674673542000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031730022,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/a/image.related.wideLandscape.1500x844.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274326675,
+          "sponsored": false,
+          "description": "Australian soldiers training Ukrainians in southern England.",
+          "photographer": "AP",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675274326675
+        },
+        {
+          "id": 1031730022,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/a/image.related.thumbnail.375x250.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274326675,
+          "sponsored": false,
+          "description": "Australian soldiers training Ukrainians in southern England.",
+          "photographer": "AP",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675274326675
+        },
+        {
+          "id": 1031730022,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/a/image.related.afrArticleLead.1536x1010.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274326675,
+          "sponsored": false,
+          "description": "Australian soldiers training Ukrainians in southern England.",
+          "photographer": "AP",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675274326675
+        },
+        {
+          "id": 1031730022,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/a/image.related.articleLeadwide.1500x844.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274326675,
+          "sponsored": false,
+          "description": "Australian soldiers training Ukrainians in southern England.",
+          "photographer": "AP",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675274326675
+        },
+        {
+          "id": 1031730022,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/a/image.related.afrIndexLead.1536x1010.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274326675,
+          "sponsored": false,
+          "description": "Australian soldiers training Ukrainians in southern England.",
+          "photographer": "AP",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675274326675
+        },
+        {
+          "id": 1031730022,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/a/image.related.landscape.1174x783.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274326675,
+          "sponsored": false,
+          "description": "Australian soldiers training Ukrainians in southern England.",
+          "photographer": "AP",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675274326675
+        },
+        {
+          "id": 1031730019,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/7/image.related.articleLeadwide.1500x844.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274309520,
+          "sponsored": false,
+          "description": "Ivan and Olena chat during a break from their intense training regime.",
+          "photographer": "Getty",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675274309520
+        },
+        {
+          "id": 1031730019,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/7/image.related.afrArticleInline.620x0.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274309520,
+          "sponsored": false,
+          "description": "Ivan and Olena chat during a break from their intense training regime.",
+          "photographer": "Getty",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1675274309520
+        },
+        {
+          "id": 1031730035,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/n/image.related.articleLeadwide.1500x844.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675279025840,
+          "sponsored": false,
+          "description": "An Australian army officer involved in training Ukrainian infantry in south-west England.",
+          "photographer": "Hans van Leeuwen",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675279025840
+        },
+        {
+          "id": 1031730035,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/n/image.related.afrArticleInline.620x0.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675279025840,
+          "sponsored": false,
+          "description": "An Australian army officer involved in training Ukrainian infantry in south-west England.",
+          "photographer": "Hans van Leeuwen",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1675279025840
+        },
+        {
+          "id": 1031730013,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/1/image.related.articleLeadwide.1500x844.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274269504,
+          "sponsored": false,
+          "description": "Foreign Secretary James Cleverly, Foreign Minister Penny Wong, Defence Minister Richard Marles and Defence Secretary Ben Wallace, watching a training drill.",
+          "photographer": "Getty",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675274269504
+        },
+        {
+          "id": 1031730013,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/z/1/image.related.afrArticleInline.620x0.p5ch9t.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675274269504,
+          "sponsored": false,
+          "description": "Foreign Secretary James Cleverly, Foreign Minister Penny Wong, Defence Minister Richard Marles and Defence Secretary Ben Wallace, watching a training drill.",
+          "photographer": "Getty",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1675274269504
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Inside the mission to turn Ukrainians into war heroes",
+        "overrideAbstract": "In England for training, Ukrainian army volunteers are raw recruits. Prepping them for battle is proving an inspirational experience for the Aussies involved."
+      },
+      "timeStamp": 1675282443000
+    },
+    {
+      "id": 1520635118,
+      "categories": [
+        {
+          "name": "Rear Window",
+          "sectionPath": "/brand/rear-window",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Joe Aston",
+          "title": "Columnist",
+          "email": "joe.aston@afr.com ",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030192038,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/9/i/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553046073852.png",
+              "lastModified": 1553046073852,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553046073852
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/brand/rear-window/the-courage-of-asic-chairman-joe-longo-20230202-p5chke",
+      "lastModified": 1675323879288,
+      "sponsored": false,
+      "headline": "How low can Joe Longo go?",
+      "indexHeadline": "How low can Joe Longo go?",
+      "tabletHeadline": "",
+      "theAbstract": "If only ASIC was less concerned with its public image and more concerned with enforcing the law.",
+      "byLine": "Joe Aston",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520629561,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Ronald Mizen",
+              "title": "Online News Editor",
+              "email": "ronald.mizen@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1026221558,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/g/y/z/h/m/e/image.imgtype.afrWoodcutAuthorImage.140x140.png/1507775866674.png",
+                  "lastModified": 1507775866674,
+                  "sponsored": false,
+                  "description": "Ronald Mizen AFR Woodcut",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1507775866674
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/politics/national/longo-s-asic-reset-aims-for-faster-enforcement-20230117-p5cda1",
+          "lastModified": 1675023042287,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Longo’s ASIC reset aims for faster enforcement",
+          "timeStamp": 1675022354000
+        },
+        {
+          "id": 1520633792,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Ronald Mizen",
+              "title": "Online News Editor",
+              "email": "ronald.mizen@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1026221558,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/g/y/z/h/m/e/image.imgtype.afrWoodcutAuthorImage.140x140.png/1507775866674.png",
+                  "lastModified": 1507775866674,
+                  "sponsored": false,
+                  "description": "Ronald Mizen AFR Woodcut",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1507775866674
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/politics/national/lack-of-funding-for-tech-holding-back-asic-s-modernisation-push-20230130-p5cgjk",
+          "lastModified": 1675068721379,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Lack of funding for tech holding back ASIC’s modernisation push",
+          "timeStamp": 1675064232000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031108857,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/w/8/o/p/image.related.wideLandscape.1500x844.p5chke.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1622610916225,
+          "sponsored": false,
+          "description": "ASIC chairman Joe Longo.",
+          "photographer": "Alex Ellinghausen",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1622610916225
+        },
+        {
+          "id": 1031108857,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/w/8/o/p/image.related.thumbnail.375x250.p5chke.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1622610916225,
+          "sponsored": false,
+          "description": "ASIC chairman Joe Longo.",
+          "photographer": "Alex Ellinghausen",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1622610916225
+        },
+        {
+          "id": 1031108857,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/w/8/o/p/image.related.afrIndexLead.1536x1010.p5chke.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1622610916225,
+          "sponsored": false,
+          "description": "ASIC chairman Joe Longo.",
+          "photographer": "Alex Ellinghausen",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1622610916225
+        },
+        {
+          "id": 1031108857,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/w/8/o/p/image.related.landscape.1174x783.p5chke.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1622610916225,
+          "sponsored": false,
+          "description": "ASIC chairman Joe Longo.",
+          "photographer": "Alex Ellinghausen",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1622610916225
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "Approved",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "How low can Joe Longo go?",
+        "overrideAbstract": "If only ASIC was less concerned with its public image and more concerned with enforcing the law."
+      },
+      "timeStamp": 1675323830000
+    },
+    {
+      "id": 1520634595,
+      "categories": [
+        {
+          "name": "Boss",
+          "sectionPath": "/brand/boss",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Patrick Durkin",
+          "title": "BOSS Deputy Editor",
+          "email": "pdurkin@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030192446,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/k/u/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553052379451.png",
+              "lastModified": 1553052379451,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553052379451
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/brand/boss/csl-boss-paul-perreault-reveals-his-biggest-regret-20230201-p5ch5v",
+      "lastModified": 1675295487549,
+      "sponsored": false,
+      "headline": "CSL boss Paul Perreault reveals his biggest regret",
+      "indexHeadline": "CSL boss Paul Perreault reveals his biggest regret",
+      "tabletHeadline": "",
+      "theAbstract": "After 25 years at CSL, Paul Perreault is stepping down. This is what he learnt from a decade running one of Australia’s biggest companies.",
+      "byLine": "Patrick Durkin",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520619920,
+          "categories": [
+            {
+              "name": "Health",
+              "sectionPath": "/business/health",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Yolanda Redrup",
+              "title": "Reporter",
+              "email": "yolanda.redrup@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030202083,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/t/0/j/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553562749390.png",
+                  "lastModified": 1553562749390,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553562749390
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/business/health/a-considered-risk-taker-csl-s-perreault-leaves-big-shoes-to-fill-20221212-p5c5u8",
+          "lastModified": 1670920169418,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "A considered risk-taker, CSL’s Perreault leaves big shoes to fill",
+          "timeStamp": 1670916477000
+        },
+        {
+          "id": 1520620181,
+          "categories": [
+            {
+              "name": "Chanticleer",
+              "sectionPath": "/brand/chanticleer",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Chanticleer",
+              "title": "Columnist",
+              "email": "",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030117386,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/a/z/n/u/image.imgtype.afrWoodcutAuthorImage.140x140.png/1549519435387.jpg",
+                  "lastModified": 1549519435387,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1549519435387
+                },
+                {
+                  "id": 67385547,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/1/4/4/b/0/r/image.imgtype.afrWoodcutAuthorImage.140x140.png/1426357827234.png",
+                  "lastModified": 1426357827234,
+                  "sponsored": false,
+                  "description": " ",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1426357827234
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/brand/chanticleer/perreault-leaves-csl-in-good-hands-20221213-p5c61h",
+          "lastModified": 1670921763246,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Perreault leaves CSL in good hands",
+          "timeStamp": 1670916732000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031729488,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/k/g/image.related.afrArticleLead.1536x1010.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675256008266,
+          "sponsored": false,
+          "description": "Paul Perreault CSL outgoing CEO",
+          "photographer": "Eamon Gallagher",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675256008266
+        },
+        {
+          "id": 1031729488,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/k/g/image.related.articleLeadwide.1500x844.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675256008266,
+          "sponsored": false,
+          "description": "Paul Perreault CSL outgoing CEO",
+          "photographer": "Eamon Gallagher",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675256008266
+        },
+        {
+          "id": 1031686386,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/8/m/b/6/image.related.articleLeadwide.1500x844.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1670882237941,
+          "sponsored": false,
+          "description": "Three decades of leadership: CSL chief executive Paul Perreault (left), with incoming CEO Paul McKenzie (centre) and company chairman Brian McNamee.",
+          "photographer": "Supplied.",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1670882237941
+        },
+        {
+          "id": 1031686386,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/8/m/b/6/image.related.afrArticleInline.620x0.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1670882237941,
+          "sponsored": false,
+          "description": "Three decades of leadership: CSL chief executive Paul Perreault (left), with incoming CEO Paul McKenzie (centre) and company chairman Brian McNamee.",
+          "photographer": "Supplied.",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1670882237941
+        },
+        {
+          "id": 1031137658,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/w/u/w/q/image.related.articleLeadwide.1500x844.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1625100418486,
+          "sponsored": false,
+          "description": "CSL chief executive Paul Perreault plans to be doing a lot more hiking, skiing and golf in his Utah home once he stands down as CEO after a decade.",
+          "photographer": "Tony Stewart",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1625100418486
+        },
+        {
+          "id": 1031137658,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/w/u/w/q/image.related.afrArticleInline.620x0.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1625100418486,
+          "sponsored": false,
+          "description": "CSL chief executive Paul Perreault plans to be doing a lot more hiking, skiing and golf in his Utah home once he stands down as CEO after a decade.",
+          "photographer": "Tony Stewart",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1625100418486
+        },
+        {
+          "id": 1031729498,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/k/q/image.related.wideLandscape.1500x844.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675379891164,
+          "sponsored": false,
+          "description": "CSL boss Paul Perreault",
+          "photographer": "Eamon Gallagher",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675379891164
+        },
+        {
+          "id": 1031729498,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/k/q/image.related.thumbnail.375x250.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675379891164,
+          "sponsored": false,
+          "description": "CSL boss Paul Perreault",
+          "photographer": "Eamon Gallagher",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675379891164
+        },
+        {
+          "id": 1031729498,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/k/q/image.related.afrIndexLead.1536x1010.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675379891164,
+          "sponsored": false,
+          "description": "CSL boss Paul Perreault",
+          "photographer": "Eamon Gallagher",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675379891164
+        },
+        {
+          "id": 1031729498,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/k/q/image.related.landscape.1174x783.p5ch5v.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675379891164,
+          "sponsored": false,
+          "description": "CSL boss Paul Perreault",
+          "photographer": "Eamon Gallagher",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675379891164
+        }
+      ],
+      "signPost": "EXCLUSIVE",
+      "companies": [
+        {
+          "id": 997147793,
+          "companyCode": "CSL",
+          "companyName": "CSL LIMITED",
+          "abbreviatedName": "CSL Ltd",
+          "exchange": "ASX",
+          "companyNumber": "51588348"
+        }
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "CSL boss Paul Perreault reveals his biggest regret",
+        "overrideAbstract": "After 25 years at CSL, Paul Perreault is stepping down. This is what he learnt from a decade running one of Australia’s biggest companies."
+      },
+      "timeStamp": 1675274400000
+    },
+    {
+      "id": 1520634950,
+      "categories": [
+        {
+          "name": "Commercial",
+          "sectionPath": "/real-estate/commercial",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Patrick Durkin",
+          "title": "BOSS Deputy Editor",
+          "email": "pdurkin@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030192446,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/k/u/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553052379451.png",
+              "lastModified": 1553052379451,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553052379451
+            }
+          ]
+        },
+        {
+          "name": "Michael Bleby",
+          "title": "Senior Reporter",
+          "email": "mbleby@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030202028,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/s/z/0/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553561488738.png",
+              "lastModified": 1553561488738,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553561488738
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/real-estate/commercial/melbourne-home-builder-delco-goes-into-liquidation-20230202-p5chfq",
+      "lastModified": 1675312353337,
+      "sponsored": false,
+      "headline": "Melbourne home builder Delco goes into liquidation",
+      "indexHeadline": "Melbourne home builder Delco goes into liquidation",
+      "tabletHeadline": "",
+      "theAbstract": "The new home market is slowing and builders across the country are trying to hold on amid rising prices and labour shortages, but not all will make it.",
+      "byLine": "Michael Bleby and Patrick Durkin",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520631828,
+          "categories": [
+            {
+              "name": "Economy",
+              "sectionPath": "/news/economy",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Max Mason",
+              "title": "Media & Marketing Editor",
+              "email": "max.mason@afr.com",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030200281,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/r/m/h/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553477420914.png",
+                  "lastModified": 1553477420914,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553477420914
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/economy/insolvency-bosses-ready-for-a-reckoning-in-construction-20230124-p5cf10",
+          "lastModified": 1675046049880,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Insolvency bosses ready for a ‘reckoning’ in construction",
+          "timeStamp": 1675043842000
+        },
+        {
+          "id": 1520607501,
+          "categories": [
+            {
+              "name": "Commercial",
+              "sectionPath": "/real-estate/commercial",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Michael Bleby",
+              "title": "Senior Reporter",
+              "email": "mbleby@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030202028,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/s/z/0/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553561488738.png",
+                  "lastModified": 1553561488738,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553561488738
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/real-estate/commercial/pocock-wants-better-payment-protections-in-the-building-industry-20221107-p5bw99",
+          "lastModified": 1667881824282,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Pocock wants better payment protections in the building industry",
+          "timeStamp": 1667881750000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031486678,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/4/c/7/q/image.related.wideLandscape.1500x844.p5chfq.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1654737506594,
+          "sponsored": false,
+          "description": "Home builders across the country are trying to survive what some have described as another six months of pain of digesting large volumes of work amid still-rising prices and labour shortages. ",
+          "photographer": "Jason South",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1654737506594
+        },
+        {
+          "id": 1031486678,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/4/c/7/q/image.related.thumbnail.375x250.p5chfq.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1654737506594,
+          "sponsored": false,
+          "description": "Home builders across the country are trying to survive what some have described as another six months of pain of digesting large volumes of work amid still-rising prices and labour shortages. ",
+          "photographer": "Jason South",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1654737506594
+        },
+        {
+          "id": 1031486678,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/4/c/7/q/image.related.afrArticleLead.1536x1010.p5chfq.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1654737506594,
+          "sponsored": false,
+          "description": "Home builders across the country are trying to survive what some have described as another six months of pain of digesting large volumes of work amid still-rising prices and labour shortages. ",
+          "photographer": "Jason South",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1654737506594
+        },
+        {
+          "id": 1031486678,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/4/c/7/q/image.related.articleLeadwide.1500x844.p5chfq.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1654737506594,
+          "sponsored": false,
+          "description": "Home builders across the country are trying to survive what some have described as another six months of pain of digesting large volumes of work amid still-rising prices and labour shortages. ",
+          "photographer": "Jason South",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1654737506594
+        },
+        {
+          "id": 1031486678,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/4/c/7/q/image.related.afrIndexLead.1536x1010.p5chfq.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1654737506594,
+          "sponsored": false,
+          "description": "Home builders across the country are trying to survive what some have described as another six months of pain of digesting large volumes of work amid still-rising prices and labour shortages. ",
+          "photographer": "Jason South",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1654737506594
+        },
+        {
+          "id": 1031486678,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/4/c/7/q/image.related.landscape.1174x783.p5chfq.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1654737506594,
+          "sponsored": false,
+          "description": "Home builders across the country are trying to survive what some have described as another six months of pain of digesting large volumes of work amid still-rising prices and labour shortages. ",
+          "photographer": "Jason South",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1654737506594
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Melbourne home builder Delco goes into liquidation",
+        "overrideAbstract": "The new home market is slowing and builders across the country are trying to hold on amid rising prices and labour shortages, but not all will make it."
+      },
+      "timeStamp": 1675309145000
+    },
+    {
+      "id": 1520634053,
+      "categories": [
+        {
+          "name": "Health",
+          "sectionPath": "/business/health",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+
+      ],
+      "url": "http://www.afr.com/business/health/evidence-is-mounting-that-covid-19-is-bad-for-the-brain-20230130-p5cgqt",
+      "lastModified": 1675228500000,
+      "onTime": 1675228500000,
+      "sponsored": false,
+      "headline": "Evidence is mounting that COVID-19 is bad for the brain",
+      "indexHeadline": "Evidence is mounting that COVID-19 is bad for the brain",
+      "tabletHeadline": "",
+      "theAbstract": "Long-term neurological problems appear to have affected about 10 per cent of people before vaccines were available.",
+      "byLine": "Faye Flam",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520631173,
+          "categories": [
+            {
+              "name": "Education",
+              "sectionPath": "/news/policy/education",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Jill Margo",
+              "title": "Health Editor",
+              "email": "jmargo@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030253135,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/d/w/e/n/image.imgtype.afrWoodcutAuthorImage.140x140.png/1556514241561.png",
+                  "lastModified": 1556514241561,
+                  "sponsored": false,
+                  "description": " ",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1556514241561
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/policy/education/welcome-to-the-covid-19-interdemic-20230121-p5ceit",
+          "lastModified": 1674531295821,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Welcome to the COVID-19 ‘interdemic’",
+          "timeStamp": 1674524864000
+        },
+        {
+          "id": 1520634003,
+          "categories": [
+            {
+              "name": "Asia",
+              "sectionPath": "/news/world/asia",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+
+          ],
+          "url": "http://www.afr.com/news/world/asia/what-china-s-reopening-means-for-markets-20230130-p5cgpf",
+          "lastModified": 1675123873717,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "What China’s reopening means for markets",
+          "timeStamp": 1675119372000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031729727,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/r/3/image.related.wideLandscape.1500x844.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675222503746,
+          "sponsored": false,
+          "description": "Researchers have found that some people’s brains aged 10 years after they had COVID-19, while others only seemed a year older. And it’s possible that some people recovered from COVID-19 with no changes.",
+          "photographer": "Getty",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675222503746
+        },
+        {
+          "id": 1031729727,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/r/3/image.related.thumbnail.375x250.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675222503746,
+          "sponsored": false,
+          "description": "Researchers have found that some people’s brains aged 10 years after they had COVID-19, while others only seemed a year older. And it’s possible that some people recovered from COVID-19 with no changes.",
+          "photographer": "Getty",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675222503746
+        },
+        {
+          "id": 1031729727,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/r/3/image.related.afrArticleLead.1536x1010.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675222503746,
+          "sponsored": false,
+          "description": "Researchers have found that some people’s brains aged 10 years after they had COVID-19, while others only seemed a year older. And it’s possible that some people recovered from COVID-19 with no changes.",
+          "photographer": "Getty",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675222503746
+        },
+        {
+          "id": 1031729727,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/r/3/image.related.articleLeadwide.1500x844.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675222503746,
+          "sponsored": false,
+          "description": "Researchers have found that some people’s brains aged 10 years after they had COVID-19, while others only seemed a year older. And it’s possible that some people recovered from COVID-19 with no changes.",
+          "photographer": "Getty",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675222503746
+        },
+        {
+          "id": 1031729727,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/r/3/image.related.afrIndexLead.1536x1010.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675222503746,
+          "sponsored": false,
+          "description": "Researchers have found that some people’s brains aged 10 years after they had COVID-19, while others only seemed a year older. And it’s possible that some people recovered from COVID-19 with no changes.",
+          "photographer": "Getty",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675222503746
+        },
+        {
+          "id": 1031729727,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/r/3/image.related.landscape.1174x783.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675222503746,
+          "sponsored": false,
+          "description": "Researchers have found that some people’s brains aged 10 years after they had COVID-19, while others only seemed a year older. And it’s possible that some people recovered from COVID-19 with no changes.",
+          "photographer": "Getty",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675222503746
+        },
+        {
+          "id": 1031704672,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/0/f/4/image.related.articleLeadwide.1500x844.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1672903389398,
+          "sponsored": false,
+          "description": "One scientist estimates that neurological problems affected about 10 per cent of people before vaccines were available, and some smaller percentage of people now.",
+          "photographer": "AP",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1672903389398
+        },
+        {
+          "id": 1031704672,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/0/f/4/image.related.afrArticleInline.620x0.p5cgqt.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1672903389398,
+          "sponsored": false,
+          "description": "One scientist estimates that neurological problems affected about 10 per cent of people before vaccines were available, and some smaller percentage of people now.",
+          "photographer": "AP",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1672903389398
+        }
+      ],
+      "signPost": "OPINION",
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "Washington Post"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "Evidence is mounting that COVID-19 is bad for the brain",
+        "overrideAbstract": "Long-term neurological problems appear to have affected about 10 per cent of people before vaccines were available."
+      },
+      "timeStamp": 1675228500000
+    },
+    {
+      "id": 1520634915,
+      "categories": [
+        {
+          "name": "Columns",
+          "sectionPath": "/opinion/columns",
+          "orderNum": 0
+        },
+        {
+          "name": "Economy",
+          "sectionPath": "/news/economy",
+          "orderNum": 1
+        }
+      ],
+      "authors": [
+        {
+          "name": "Jennifer Hewett",
+          "title": "Columnist",
+          "email": "jennifer.hewett@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030192031,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/9/b/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553045801363.png",
+              "lastModified": 1553045801363,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553045801363
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/opinion/columns/the-great-china-rush-is-clearly-back-on-20230202-p5cher",
+      "lastModified": 1675328211967,
+      "sponsored": false,
+      "headline": "The great China rush is clearly back on",
+      "indexHeadline": "The great China rush is clearly back on",
+      "tabletHeadline": "",
+      "theAbstract": "The thaw in Chinese Australia diplomatic relations is giving Australian businesses greater confidence the export market will reopen. But there are plenty of threatening cracks to navigate.",
+      "byLine": "Jennifer Hewett",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520634284,
+          "categories": [
+            {
+              "name": "Asia",
+              "sectionPath": "/news/world/asia",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Michael Smith",
+              "title": "China Correspondent ",
+              "email": "michael.smith@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030192052,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/9/w/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553046783649.png",
+                  "lastModified": 1553046783649,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553046783649
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/world/asia/australian-ceos-flock-to-china-as-political-hostilities-fade-20230131-p5cgx8",
+          "lastModified": 1675304873142,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "CEOs flock to China as political hostilities fade",
+          "timeStamp": 1675295270000
+        },
+        {
+          "id": 1520634846,
+          "categories": [
+            {
+              "name": "Chanticleer",
+              "sectionPath": "/brand/chanticleer",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Chanticleer",
+              "title": "Columnist",
+              "email": "",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030117386,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/a/z/n/u/image.imgtype.afrWoodcutAuthorImage.140x140.png/1549519435387.jpg",
+                  "lastModified": 1549519435387,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1549519435387
+                },
+                {
+                  "id": 67385547,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/1/4/4/b/0/r/image.imgtype.afrWoodcutAuthorImage.140x140.png/1426357827234.png",
+                  "lastModified": 1426357827234,
+                  "sponsored": false,
+                  "description": " ",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1426357827234
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/brand/chanticleer/why-the-world-misread-xi-jinping-20230201-p5chcu",
+          "lastModified": 1675326676617,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Why the world misread Xi Jinping",
+          "timeStamp": 1675326641000
+        },
+        {
+          "id": 1520635056,
+          "categories": [
+            {
+              "name": "Asia",
+              "sectionPath": "/news/world/asia",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Peter Ker",
+              "title": "Resources reporter",
+              "email": "pker@afr.com",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+
+              ]
+            },
+            {
+              "name": "Michael Smith",
+              "title": "China Correspondent ",
+              "email": "michael.smith@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030192052,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/9/w/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553046783649.png",
+                  "lastModified": 1553046783649,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553046783649
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/world/asia/china-resumes-australian-coal-imports-reports-20230202-p5chio",
+          "lastModified": 1675320441972,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "China resumes Australian coal imports: reports",
+          "timeStamp": 1675318839000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031725085,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/g/6/5/image.related.wideLandscape.1500x844.p5cher.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675323944524,
+          "sponsored": false,
+          "description": "Andrew Forrest will be one CEO heading back to China.",
+          "photographer": "David Rowe",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675323944524
+        },
+        {
+          "id": 1031725085,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/g/6/5/image.related.thumbnail.375x250.p5cher.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675323944524,
+          "sponsored": false,
+          "description": "Andrew Forrest will be one CEO heading back to China.",
+          "photographer": "David Rowe",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675323944524
+        },
+        {
+          "id": 1031725085,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/g/6/5/image.related.afrArticleLead.1536x1010.p5cher.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675323944524,
+          "sponsored": false,
+          "description": "Andrew Forrest will be one CEO heading back to China.",
+          "photographer": "David Rowe",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1675323944524
+        },
+        {
+          "id": 1031725085,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/g/6/5/image.related.articleLeadwide.1500x844.p5cher.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675323944524,
+          "sponsored": false,
+          "description": "Andrew Forrest will be one CEO heading back to China.",
+          "photographer": "David Rowe",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675323944524
+        },
+        {
+          "id": 1031725085,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/g/6/5/image.related.afrIndexLead.1536x1010.p5cher.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675323944524,
+          "sponsored": false,
+          "description": "Andrew Forrest will be one CEO heading back to China.",
+          "photographer": "David Rowe",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675323944524
+        },
+        {
+          "id": 1031725085,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/g/6/5/image.related.landscape.1174x783.p5cher.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675323944524,
+          "sponsored": false,
+          "description": "Andrew Forrest will be one CEO heading back to China.",
+          "photographer": "David Rowe",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675323944524
+        }
+      ],
+      "signPost": "OPINION",
+      "companies": [
+        {
+          "id": 996974484,
+          "companyCode": "FMG",
+          "companyName": "FORTESCUE METALS GROUP LTD",
+          "abbreviatedName": "Fortescue Metals Grp",
+          "exchange": "ASX",
+          "companyNumber": "2594872"
+        }
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "The great China rush is clearly back on",
+        "overrideAbstract": "The thaw in Chinese Australia diplomatic relations is giving Australian businesses greater confidence the export market will reopen. But there are plenty of threatening cracks to navigate."
+      },
+      "timeStamp": 1675323935000
+    },
+    {
+      "id": 1520634647,
+      "categories": [
+        {
+          "name": "Technology",
+          "sectionPath": "/technology",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+
+      ],
+      "url": "http://www.afr.com/technology/the-ai-revolution-with-bill-gates-chatgpt-and-rap-20230201-p5ch7b",
+      "lastModified": 1675278000000,
+      "onTime": 1675278000000,
+      "sponsored": false,
+      "headline": "The AI revolution with Bill Gates, ChatGPT and rap",
+      "indexHeadline": "The AI revolution with Bill Gates, ChatGPT and rap",
+      "tabletHeadline": "",
+      "theAbstract": "Tech editor Paul Smith explains the hype around chatGPT, why its release forced Google to declare a code red, and whether it is coming for your job.",
+      "byLine": "",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520632058,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+
+          ],
+          "url": "http://www.afr.com/news/politics/national/can-anthony-albanese-deliver-on-the-voice-20230124-p5cf7e",
+          "lastModified": 1674703626145,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Can Anthony Albanese deliver on the Voice?",
+          "timeStamp": 1674673200000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031729979,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/y/3/image.related.wideLandscape.1500x844.p5ch7b.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675239748654,
+          "sponsored": false,
+          "description": " ",
+          "photographer": "   ",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675239748096
+        },
+        {
+          "id": 1031729979,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/y/3/image.related.thumbnail.375x250.p5ch7b.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675239748654,
+          "sponsored": false,
+          "description": " ",
+          "photographer": "   ",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675239748096
+        },
+        {
+          "id": 1031729979,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/y/3/image.related.afrIndexLead.1536x1010.p5ch7b.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675239748654,
+          "sponsored": false,
+          "description": " ",
+          "photographer": "   ",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675239748096
+        },
+        {
+          "id": 1031729979,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/y/3/image.related.landscape.1174x783.p5ch7b.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675239748654,
+          "sponsored": false,
+          "description": " ",
+          "photographer": "   ",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675239748096
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "The AI revolution with Bill Gates, ChatGPT and rap",
+        "overrideAbstract": "Tech editor Paul Smith explains the hype around chatGPT, why its release forced Google to declare a code red, and whether it is coming for your job."
+      },
+      "timeStamp": 1675278000000
+    },
+    {
+      "id": 1520634784,
+      "categories": [
+        {
+          "name": "National",
+          "sectionPath": "/news/politics/national",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Phillip Coorey",
+          "title": "Political Editor",
+          "email": "pcoorey@afr.com ",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030202050,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/s/z/m/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553562093372.png",
+              "lastModified": 1553562093372,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553562093372
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/news/politics/national/the-only-thing-new-about-jim-chalmers-economic-model-is-the-name-20230201-p5chb4",
+      "lastModified": 1675370784722,
+      "sponsored": false,
+      "headline": "The only thing new about Jim Chalmers’ economic model is the name",
+      "indexHeadline": "The only thing new about Jim Chalmers’ economic model is the name",
+      "tabletHeadline": "",
+      "theAbstract": "The treasurer has been busy explaining his new economic model. But one man’s “values-based capitalism” is another man’s corporate philanthropy model - just ask John Howard.",
+      "byLine": "Phillip Coorey",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520633563,
+          "categories": [
+            {
+              "name": "Columns",
+              "sectionPath": "/opinion/columns",
+              "orderNum": 0
+            },
+            {
+              "name": "Economy",
+              "sectionPath": "/news/economy",
+              "orderNum": 1
+            }
+          ],
+          "authors": [
+            {
+              "name": "John Kehoe",
+              "title": "Senior Writer",
+              "email": "jkehoe@afr.com ",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030192041,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/l/9/l/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553046200666.png",
+                  "lastModified": 1553046200666,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553046200666
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/economy/the-chalmers-doctrine-must-not-sink-into-crony-capitalism-20230129-p5cgd7",
+          "lastModified": 1675218084554,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "The Chalmers doctrine must not sink into crony capitalism",
+          "timeStamp": 1675215502000
+        },
+        {
+          "id": 1520634120,
+          "categories": [
+            {
+              "name": "Economy",
+              "sectionPath": "/news/economy",
+              "orderNum": 1
+            },
+            {
+              "name": "Columns",
+              "sectionPath": "/opinion/columns",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+
+          ],
+          "url": "http://www.afr.com/opinion/columns/why-jim-chalmers-has-people-so-stirred-up-20230131-p5cgso",
+          "lastModified": 1675156982629,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Why Jim Chalmers has people so stirred up",
+          "timeStamp": 1675146354000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031704146,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/0/0/i/image.related.afrArticleLead.1536x1010.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1672882737063,
+          "sponsored": false,
+          "description": "Jim Chalmers 6000-word essay has not reinvented the wheel.",
+          "photographer": "Alex Ellinghausen",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1672882737063
+        },
+        {
+          "id": 1031704146,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/0/0/i/image.related.articleLeadwide.1500x844.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1672882737063,
+          "sponsored": false,
+          "description": "Jim Chalmers 6000-word essay has not reinvented the wheel.",
+          "photographer": "Alex Ellinghausen",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1672882737063
+        },
+        {
+          "id": 1031729939,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/w/z/image.related.wideLandscape.1500x844.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675235200373,
+          "sponsored": false,
+          "description": "If the treasurer is fair dinkum about belting us all with tax hikes, he’ll need all tools at his disposal. ",
+          "photographer": "David Rowe",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675235200373
+        },
+        {
+          "id": 1031729939,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/w/z/image.related.thumbnail.375x250.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675235200373,
+          "sponsored": false,
+          "description": "If the treasurer is fair dinkum about belting us all with tax hikes, he’ll need all tools at his disposal. ",
+          "photographer": "David Rowe",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1675235200373
+        },
+        {
+          "id": 1031729939,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/w/z/image.related.articleLeadwide.1500x844.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675235200373,
+          "sponsored": false,
+          "description": "If the treasurer is fair dinkum about belting us all with tax hikes, he’ll need all tools at his disposal. ",
+          "photographer": "David Rowe",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675235200373
+        },
+        {
+          "id": 1031729939,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/w/z/image.related.afrIndexLead.1536x1010.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675235200373,
+          "sponsored": false,
+          "description": "If the treasurer is fair dinkum about belting us all with tax hikes, he’ll need all tools at his disposal. ",
+          "photographer": "David Rowe",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675235200373
+        },
+        {
+          "id": 1031729939,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/w/z/image.related.landscape.1174x783.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675235200373,
+          "sponsored": false,
+          "description": "If the treasurer is fair dinkum about belting us all with tax hikes, he’ll need all tools at his disposal. ",
+          "photographer": "David Rowe",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1675235200373
+        },
+        {
+          "id": 1031729939,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/j/w/z/image.related.afrArticleInline.620x0.p5chb4.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1675235200373,
+          "sponsored": false,
+          "description": "If the treasurer is fair dinkum about belting us all with tax hikes, he’ll need all tools at his disposal. ",
+          "photographer": "David Rowe",
+          "type": "afrArticleInline",
+          "width": 620,
+          "height": 0,
+          "assetType": "IMAGE",
+          "timeStamp": 1675235200373
+        }
+      ],
+      "signPost": "OPINION",
+      "companies": [
+        {
+          "id": 997050095,
+          "companyCode": "STO",
+          "companyName": "SANTOS LIMITED",
+          "abbreviatedName": "Santos Ltd",
+          "exchange": "ASX",
+          "companyNumber": "7550923"
+        }
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "The only thing new about Jim Chalmers’ economic model is the name",
+        "overrideAbstract": "The treasurer has been busy explaining his new economic model. But one man’s “values-based capitalism” is another man’s corporate philanthropy model - just ask John Howard."
+      },
+      "timeStamp": 1675328400000
+    },
+    {
+      "id": 1520633736,
+      "categories": [
+        {
+          "name": "News",
+          "sectionPath": "/news",
+          "orderNum": 0
+        }
+      ],
+      "authors": [
+        {
+          "name": "Michael Pelly",
+          "title": "Legal Affairs Editor",
+          "email": "michael.pelly@afr.com.au",
+          "relatedAssets": [
+
+          ],
+          "relatedImages": [
+            {
+              "id": 1030202029,
+              "categories": [
+
+              ],
+              "brands": [
+
+              ],
+              "authors": [
+
+              ],
+              "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/s/z/1/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553561555183.png",
+              "lastModified": 1553561555183,
+              "sponsored": false,
+              "description": "",
+              "photographer": "",
+              "type": "afrWoodcutAuthorImage",
+              "width": 140,
+              "height": 140,
+              "assetType": "IMAGE",
+              "timeStamp": 1553561555183
+            }
+          ]
+        }
+      ],
+      "url": "http://www.afr.com/news/i-don-t-want-to-waste-a-day-says-dreyfus-20230130-p5cgi0",
+      "lastModified": 1675312537759,
+      "sponsored": false,
+      "headline": "‘Don’t want to waste a day’: Dreyfus eyes major legal shake-up",
+      "indexHeadline": "‘Don’t want to waste a day’: Dreyfus eyes major legal shake-up",
+      "tabletHeadline": "",
+      "theAbstract": "The attorney-general has an ambitious legislative and policy agenda for 2023, from family law reform to a new appeals tribunal and the Voice to parliament.",
+      "byLine": "Michael Pelly",
+      "acceptComments": false,
+      "numberOfComments": 0,
+      "relatedAssets": [
+        {
+          "id": 1520616645,
+          "categories": [
+            {
+              "name": "Business",
+              "sectionPath": "/business",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Michael Pelly",
+              "title": "Legal Affairs Editor",
+              "email": "michael.pelly@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030202029,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/s/z/1/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553561555183.png",
+                  "lastModified": 1553561555183,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553561555183
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/business/top-law-firms-look-to-improve-relationship-with-employees-20221202-p5c3b9",
+          "lastModified": 1675309526247,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Top law firms look to improve relationship with employees",
+          "timeStamp": 1675299339000
+        },
+        {
+          "id": 1520617641,
+          "categories": [
+            {
+              "name": "National",
+              "sectionPath": "/news/politics/national",
+              "orderNum": 0
+            }
+          ],
+          "authors": [
+            {
+              "name": "Michael Pelly",
+              "title": "Legal Affairs Editor",
+              "email": "michael.pelly@afr.com.au",
+              "relatedAssets": [
+
+              ],
+              "relatedImages": [
+                {
+                  "id": 1030202029,
+                  "categories": [
+
+                  ],
+                  "brands": [
+
+                  ],
+                  "authors": [
+
+                  ],
+                  "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/1/c/s/z/1/image.imgtype.afrWoodcutAuthorImage.140x140.png/1553561555183.png",
+                  "lastModified": 1553561555183,
+                  "sponsored": false,
+                  "description": "",
+                  "photographer": "",
+                  "type": "afrWoodcutAuthorImage",
+                  "width": 140,
+                  "height": 140,
+                  "assetType": "IMAGE",
+                  "timeStamp": 1553561555183
+                }
+              ]
+            }
+          ],
+          "url": "http://www.afr.com/news/politics/national/media-silk-a-contender-to-lead-federal-court-20221206-p5c42x",
+          "lastModified": 1673200800000,
+          "onTime": 1673200800000,
+          "sponsored": false,
+          "assetType": "ARTICLE",
+          "headline": "Media silk a contender to lead Federal Court",
+          "timeStamp": 1673200800000
+        }
+      ],
+      "relatedImages": [
+        {
+          "id": 1031711848,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/5/y/g/image.related.wideLandscape.1500x844.p5cgi0.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1673767211084,
+          "sponsored": false,
+          "description": "Attorney-General Mark Dreyfus says the referendum on the Indigenous Voice this year “will look like an election”.",
+          "photographer": "Chris Hopkins",
+          "type": "wideLandscape",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1673767211084
+        },
+        {
+          "id": 1031711848,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/5/y/g/image.related.thumbnail.375x250.p5cgi0.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1673767211084,
+          "sponsored": false,
+          "description": "Attorney-General Mark Dreyfus says the referendum on the Indigenous Voice this year “will look like an election”.",
+          "photographer": "Chris Hopkins",
+          "type": "thumbnail",
+          "width": 375,
+          "height": 250,
+          "assetType": "IMAGE",
+          "timeStamp": 1673767211084
+        },
+        {
+          "id": 1031711848,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/5/y/g/image.related.afrArticleLead.1536x1010.p5cgi0.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1673767211084,
+          "sponsored": false,
+          "description": "Attorney-General Mark Dreyfus says the referendum on the Indigenous Voice this year “will look like an election”.",
+          "photographer": "Chris Hopkins",
+          "type": "afrArticleLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "large@2x": "",
+          "timeStamp": 1673767211084
+        },
+        {
+          "id": 1031711848,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/5/y/g/image.related.articleLeadwide.1500x844.p5cgi0.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1673767211084,
+          "sponsored": false,
+          "description": "Attorney-General Mark Dreyfus says the referendum on the Indigenous Voice this year “will look like an election”.",
+          "photographer": "Chris Hopkins",
+          "type": "articleLeadWide",
+          "width": 1500,
+          "height": 844,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1673767211084
+        },
+        {
+          "id": 1031711848,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/5/y/g/image.related.afrIndexLead.1536x1010.p5cgi0.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1673767211084,
+          "sponsored": false,
+          "description": "Attorney-General Mark Dreyfus says the referendum on the Indigenous Voice this year “will look like an election”.",
+          "photographer": "Chris Hopkins",
+          "type": "afrIndexLead",
+          "width": 1536,
+          "height": 1010,
+          "assetType": "IMAGE",
+          "xLarge@2x": "",
+          "xLarge": "",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1673767211084
+        },
+        {
+          "id": 1031711848,
+          "categories": [
+
+          ],
+          "brands": [
+
+          ],
+          "authors": [
+
+          ],
+          "url": "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/5/y/g/image.related.landscape.1174x783.p5cgi0.13zzqx.png/1675393379690.jpg",
+          "lastModified": 1673767211084,
+          "sponsored": false,
+          "description": "Attorney-General Mark Dreyfus says the referendum on the Indigenous Voice this year “will look like an election”.",
+          "photographer": "Chris Hopkins",
+          "type": "landscape",
+          "width": 1174,
+          "height": 783,
+          "assetType": "IMAGE",
+          "large@2x": "",
+          "large": "",
+          "thumbnail@2x": "",
+          "thumbnail": "",
+          "timeStamp": 1673767211084
+        }
+      ],
+      "companies": [
+
+      ],
+      "legalStatus": "None",
+      "sources": [
+        {
+          "tagId": "AFR"
+        }
+      ],
+      "assetType": "ARTICLE",
+      "overrides": {
+        "overrideHeadline": "‘Don’t want to waste a day’: Dreyfus eyes major legal shake-up",
+        "overrideAbstract": "The attorney-general has an ambitious legislative and policy agenda for 2023, from family law reform to a new appeals tribunal and the Voice to parliament."
+      },
+      "timeStamp": 1675306255000
+    }
+  ],
+  "relatedAssets": [
+
+  ],
+  "relatedImages": [
+
+  ],
+  "assetType": "ASSET_LIST",
+  "timeStamp": 1675393377933
+}
