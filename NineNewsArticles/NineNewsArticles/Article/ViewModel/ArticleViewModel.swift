@@ -3,6 +3,8 @@ import UIKit
 
 //TODO: remove occurances of Car
 
+//TODO: add unit tests
+
 protocol ArticleViewModelProtocol {
     var callback: ((ArticleViewModel.State) -> Void)? { set get }
     func loadData()
@@ -16,6 +18,7 @@ protocol ViewModelCollectionDataSourceProtocol {
 
 class ArticleViewModel: ArticleViewModelProtocol{
     
+    //TODO: remove state machine
     enum State {
         case initial
         case loading
