@@ -16,6 +16,7 @@
 		88F7151C298D296200518634 /* NineNewsArticlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7151B298D296200518634 /* NineNewsArticlesTests.swift */; };
 		88F71526298D296200518634 /* NineNewsArticlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71525298D296200518634 /* NineNewsArticlesUITests.swift */; };
 		88F71528298D296200518634 /* NineNewsArticlesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71527298D296200518634 /* NineNewsArticlesUITestsLaunchTests.swift */; };
+		88F71536298D2ABE00518634 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 88F71535298D2ABE00518634 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F71536298D2ABE00518634 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = NineNewsArticles;
+			packageProductDependencies = (
+				88F71535298D2ABE00518634 /* SDWebImage */,
+			);
 			productName = NineNewsArticles;
 			productReference = 88F71501298D296000518634 /* NineNewsArticles.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 88F714F8298D296000518634;
+			packageReferences = (
+				88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 88F71502298D296000518634 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -604,6 +612,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88F71535298D2ABE00518634 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88F714F9298D296000518634 /* Project object */;
 }
