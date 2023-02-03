@@ -10,9 +10,6 @@ import Foundation
 
 extension Thread {
     static func executeOnMain(_ block: @escaping () -> Void) {
-        if !isMainThread {
-            
-            DispatchQueue.main.async(execute: block)
-        }
+        isMainThread ? block() : DispatchQueue.main.async(execute: block)            
     }
 }

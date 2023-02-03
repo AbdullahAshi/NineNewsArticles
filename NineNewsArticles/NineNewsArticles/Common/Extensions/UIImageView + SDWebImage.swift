@@ -13,17 +13,17 @@ extension UIImageView{
     func image(for url: String) {
         DispatchQueue.global().async { [weak self] in
             if let cachedImage = SDImageCache.shared.imageFromCache(forKey: url) {
-                DispatchQueue.main.async(execute: {
+                Thread.executeOnMain {
                     self?.image = cachedImage
-                })
+                }
                 return
             }
             
             SDWebImageDownloader.shared.downloadImage(with: URL(string: url)!, options: [], progress: nil, completed: { [weak self] (image,_,_,_) in
                 SDImageCache.shared.store(image, forKey: url, completion: nil)
-                DispatchQueue.main.async(execute: {
+                Thread.executeOnMain {
                     self?.image = image
-                })
+                }
             })
         }
     }

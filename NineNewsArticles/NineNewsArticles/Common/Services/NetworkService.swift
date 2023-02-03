@@ -62,6 +62,12 @@ final class NetworkService: NetworkServiceProtocol {
                 let object = try JSONDecoder().decode(Model.self, from: data)
                 completion(object, nil)
             } catch {
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
+                    print(json ?? ["": ""])
+                } catch {
+                    print(error)
+                }
                 completion(nil, NetworkError.serializationError(error))
             }
         }
