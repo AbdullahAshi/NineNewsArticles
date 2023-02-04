@@ -7,29 +7,32 @@
 
 import XCTest
 
+@testable import NineNewsArticles
+
 class ArticleViewModelTests: XCTestCase {
+    
+    private var articleViewModel: ArticleViewModelDataSourceProtocol!
+    private var articleSerivce: MockArticleService!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        articleSerivce = MockArticleService()
+        articleViewModel = ArticleViewModel(articleService: articleSerivce)
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        articleSerivce = nil
+        articleViewModel = nil
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    
+    
+    func testDataSourceProtocolConformance() {
+        articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]
+        articleViewModel.loadData()
+        XCTAssertEqual(articleViewModel.numberOfItems(inSection: 0), 3)
+        
+        let article = try! XCTUnwrap(articleViewModel.getArticle(at: 1))
+        XCTAssertEqual(article.id, 1)
+        
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }

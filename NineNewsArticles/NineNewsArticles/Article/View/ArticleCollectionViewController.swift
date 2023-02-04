@@ -98,7 +98,7 @@ extension ArticleCollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: NNewsCollectionViewCell.identifier, for: indexPath) as! NNewsCollectionViewCell
         guard let item = viewModel.getArticle(at: indexPath.item) else { return UICollectionViewCell() }
-        cell.viewModel = viewModel.getCellViewModel(for: item)
+        cell.viewModel = getCellViewModel(for: item)
         return cell
     }
 }
@@ -132,5 +132,12 @@ extension ArticleCollectionViewController {
         //TODO: show in webview
         //present webview for item
         //                let item = viewModel.getArticle(at: index)
+    }
+}
+
+private extension ArticleCollectionViewController {
+    func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {
+        //TODO: pick the smallest image
+        return NNewsCollectionViewCellViewModel(title: article.headline, price: article.theAbstract, signature: article.byLine , imageUrl: article.relatedImages.first?.url ?? "")
     }
 }

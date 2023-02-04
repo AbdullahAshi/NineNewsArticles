@@ -38,6 +38,7 @@
 		88F7157B298D486900518634 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71577298D486900518634 /* ArticleViewModel.swift */; };
 		88F7157C298D486900518634 /* NNewsCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71578298D486900518634 /* NNewsCollectionViewCellViewModel.swift */; };
 		88F71583298DECC900518634 /* ArticleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71582298DECC900518634 /* ArticleViewModelTests.swift */; };
+		88F71588298DFB7100518634 /* MockArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71587298DFB7100518634 /* MockArticleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		88F71577298D486900518634 /* ArticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		88F71578298D486900518634 /* NNewsCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNewsCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		88F71582298DECC900518634 /* ArticleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelTests.swift; sourceTree = "<group>"; };
+		88F71587298DFB7100518634 /* MockArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				88F7156A298D3BE200518634 /* ArticleResponseFactory.swift */,
+				88F71587298DFB7100518634 /* MockArticleService.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F71588298DFB7100518634 /* MockArticleService.swift in Sources */,
 				88F7151C298D296200518634 /* NineNewsArticlesTests.swift in Sources */,
 				88F7156B298D3BE200518634 /* ArticleResponseFactory.swift in Sources */,
 				88F71561298D367D00518634 /* MockNetworkSerivce.swift in Sources */,

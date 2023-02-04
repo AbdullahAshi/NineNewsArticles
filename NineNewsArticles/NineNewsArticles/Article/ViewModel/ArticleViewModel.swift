@@ -1,8 +1,6 @@
 import Foundation
 import UIKit
 
-//TODO: add unit tests
-
 protocol ArticleViewModelProtocol {
     var callback: ((ArticleViewModel.State) -> Void)? { set get }
     func loadData()
@@ -11,7 +9,6 @@ protocol ArticleViewModelProtocol {
 protocol ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int
     func getArticle(at index: Int) -> Article?
-    func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel
 }
 
 class ArticleViewModel: ArticleViewModelProtocol{
@@ -69,11 +66,5 @@ extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
             return nil
         }
         return articles[index]
-    }
-    
-    func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {
-        //TODO: pick the smallest image
-        return NNewsCollectionViewCellViewModel(title: article.headline, price: article.theAbstract, signature: article.byLine , imageUrl: article.relatedImages.first?.url ?? "")
-        
     }
 }
