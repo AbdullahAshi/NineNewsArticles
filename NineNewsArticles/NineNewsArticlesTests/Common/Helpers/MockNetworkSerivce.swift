@@ -9,21 +9,23 @@ import XCTest
 
 @testable import NineNewsArticles
 
-class MockNetworkSerivceArticleResponse: NetworkServiceProtocol {
+class MockNetworkSerivce: NetworkServiceProtocol {
     
-    var success: Bool
-    
-    init(success: Bool) {
-        self.success = success
-    }
+    var success: Bool = true
+    var stubs: Any?
+    private(set) var calledCount: Int = 0
     
     func get<Model>(url: URL, completion: @escaping (Model?, Error?) -> Void) where Model : Codable {
+        calledCount += 1
         switch success {
         case true:
-            let articleListResponse = try! ArticleResponseFactory.articleResponse() as? Model
-            completion(articleListResponse, nil)
+            completion(stubs as? Model, nil)
         case false:
-            completion(nil, ArticleResponseFactory.ArticleFactoryResponseError.unableToLoadResponse)
+            completion(nil, HTTPError.invalidResponse)
         }
     }
+}
+
+public enum HTTPError: Error {
+    case invalidResponse
 }

@@ -1,8 +1,6 @@
 import Foundation
 import UIKit
 
-//TODO: remove occurances of Car
-
 //TODO: add unit tests
 
 protocol ArticleViewModelProtocol {
@@ -13,7 +11,7 @@ protocol ArticleViewModelProtocol {
 protocol ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int
     func getArticle(at index: Int) -> Article?
-    func getCellViewModel(for car: Article) -> NNewsCollectionViewCellViewModel
+    func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel
 }
 
 class ArticleViewModel: ArticleViewModelProtocol{
@@ -27,7 +25,7 @@ class ArticleViewModel: ArticleViewModelProtocol{
         case loadedEmpty
     }
     
-    private let carService: ArticleServiceProtocol
+    private let articleService: ArticleServiceProtocol
     
     var callback: ((ArticleViewModel.State) -> Void)?
     private(set) var state: State {
@@ -36,25 +34,25 @@ class ArticleViewModel: ArticleViewModelProtocol{
         }
     }
     
-    private(set) var cars: [Article]?
+    private(set) var articles: [Article]?
     
-    init(carService: ArticleServiceProtocol = ArticleService()) {
-        self.carService = carService
+    init(articleService: ArticleServiceProtocol = ArticleService()) {
+        self.articleService = articleService
         state = .initial
     }
     
     func loadData() {
         state = .loading
-        carService.getArticles(completion: { [weak self] (cars, error) in
-            guard let strongSelf = self else { return }
+        articleService.getArticles(completion: { [weak self] (articles, error) in
+            guard let self = self else { return }
             
-            guard error == nil, let cars = cars else {
-                strongSelf.state = .loadedError(error: error ?? NetworkError.unexpectedError)
+            guard error == nil, let articles = articles else {
+                self.state = .loadedError(error: error ?? NetworkError.unexpectedError)
                 return
             }
             
-            strongSelf.cars = cars
-            strongSelf.state = (cars.count > 0) ? .loaded : .loadedEmpty
+            self.articles = articles
+            self.state = (articles.count > 0) ? .loaded : .loadedEmpty
         })
     }
 }
@@ -63,14 +61,14 @@ class ArticleViewModel: ArticleViewModelProtocol{
 
 extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int {
-        return cars?.count ?? 0
+        return articles?.count ?? 0
     }
     
     func getArticle(at index: Int) -> Article? {
-        guard let cars = cars, index < cars.count else {
+        guard let articles = articles, index < articles.count else {
             return nil
         }
-        return cars[index]
+        return articles[index]
     }
     
     func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {

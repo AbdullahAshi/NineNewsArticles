@@ -1,5 +1,5 @@
 //
-//  NetworkServiceSpec.swift
+//  NetworkServiceTests.swift
 //  NineNewsArticlesTests
 //
 //  Created by Abdullah Al-Ashi on 3/2/2023.
@@ -8,12 +8,13 @@
 @testable import NineNewsArticles
 import XCTest
 
-class NetworkServiceSpec: XCTestCase {
+class NetworkServiceTests: XCTestCase {
     let anyUrl = URL(string: "https://www.google.com")!
     let mockUrlSession = MockURLSession()
     lazy var networkService = NetworkService(urlSession: mockUrlSession)
     
     func testGetArticleListSuccess() throws {
+        //TODO: test with private model
         mockUrlSession.set(mockInfo: (data: try ArticleResponseFactory.articleData(), statusCode: 200, error: nil))
         let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
         networkService.get(url: anyUrl, completion: { (response: ArticleResponse?, error) in
