@@ -16,6 +16,11 @@ ViewModel: It exposes those data streams which are relevant to the View. Moreove
 SDWebImage dependency is added to cache images.
  
 ## Unit tests
-Exact same folder structure has been followed for unit tests to easliy find Class's corresponding tests.
+The exact same folder structure has been followed for unit tests to easily find Class's corresponding tests.
 
 the name of the test function reflects the testing purpose. In addition, expectation description is added to make it more clear.  
+
+## Code Compilation 
+SPM takes care of managing and installing dependencies for you, so after the first launch wait for the package to be downloaded and built the run  the project.
+
+**note:** incase of error, in Xcode select File -> Packages -> Reset Package Caches, then try build and run again.  

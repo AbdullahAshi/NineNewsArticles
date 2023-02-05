@@ -18,9 +18,11 @@ class NetworkServiceTests: XCTestCase {
         let data: Data = try JSONEncoder().encode(response)
         mockUrlSession.set(mockInfo: (data: data, statusCode: 200, error: nil))
         let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
-        networkService.get(url: anyUrl, completion: { (response: Response?, error) in
-            XCTAssertNotNil(response, "response is not expected to be nil")
-            XCTAssertNil(error, "error should be nil")
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .success(let value) = result else {
+                return XCTFail("Expected to be a success but got a failure with \(result)")
+            }
+            XCTAssertEqual(value?.id, "123451")
             expectation.fulfill()
         })
         self.wait(for: [expectation], timeout: 3.0)
@@ -31,10 +33,11 @@ class NetworkServiceTests: XCTestCase {
         
         let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
 
-        networkService.get(url: anyUrl, completion: { (response: Response?, error) in
-            XCTAssertNil(response, "response is expected to be nil")
-            let networkError = (error as? NetworkError)
-            XCTAssertEqual(networkError, NetworkError.invalidResponse("unsuccessful status code"))
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .failure(let error) = result else {
+                return XCTFail("Expected to be a success but got a failure with \(result)")
+            }
+            XCTAssertEqual(error as! NetworkError, NetworkError.invalidResponse("unsuccessful status code"))
             expectation.fulfill()
         })
         self.wait(for: [expectation], timeout: 3.0)

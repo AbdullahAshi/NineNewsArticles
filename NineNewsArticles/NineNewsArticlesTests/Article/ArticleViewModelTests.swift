@@ -24,7 +24,31 @@ class ArticleViewModelTests: XCTestCase {
         articleViewModel = nil
     }
     
+    func testStateMachine() {
+        let viewModel = articleViewModel as! ArticleViewModel
+        XCTAssertEqual(viewModel.state, .initial)
+        
+        articleSerivce.articles = []
+        articleViewModel.loadData()
+        XCTAssertEqual(viewModel.articles?.count, 0)
+        XCTAssertEqual(viewModel.state, .loadedEmpty)
+        
+        articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]
+        articleViewModel.loadData()
+        XCTAssertEqual(viewModel.articles?.count, 3)
+        XCTAssertEqual(viewModel.state, .loaded)
+        
+        articleSerivce.success = false
+        articleViewModel.loadData()
+        XCTAssertEqual(viewModel.state, .loadedError(error: MockArticleService.ServiceError.invalidResponse))
+    }
     
+    func testLoadDataCallingService() {
+        XCTAssertEqual(articleSerivce.calledCount, 0)
+        articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]
+        articleViewModel.loadData()
+        XCTAssertEqual(articleSerivce.calledCount, 1)
+    }
     
     func testDataSourceProtocolConformance() {
         articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]

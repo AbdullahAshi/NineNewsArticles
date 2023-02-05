@@ -39,28 +39,28 @@ final class NetworkService: NetworkServiceProtocol {
         let task = urlSession.dataTask(with: urlRequest) { data, response, error in
             
             guard error == nil else {
-                completion(nil, error)
+                completion(.failure(error!))
                 return
             }
             
             guard let statusCode = (response as? HTTPURLResponse)?.statusCode else {
-                completion(nil, NetworkError.invalidResponse("nil status code"))
+                completion(.failure(NetworkError.invalidResponse("nil status code")))
                 return
             }
             
             guard  200..<299 ~= statusCode else {
-                completion(nil, NetworkError.invalidResponse("unsuccessful status code"))
+                completion(.failure(NetworkError.invalidResponse("unsuccessful status code")))
                 return
             }
             
             guard let data = data else {
-                completion(nil, NetworkError.invalidResponse("data is nil"))
+                completion(.failure(NetworkError.invalidResponse("data is nil")))
                 return
             }
             
             do {
                 let object = try JSONDecoder().decode(Model.self, from: data)
-                completion(object, nil)
+                completion(.success(object))
             } catch {
                 do {
                     let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
@@ -68,7 +68,7 @@ final class NetworkService: NetworkServiceProtocol {
                 } catch {
                     print(error)
                 }
-                completion(nil, NetworkError.serializationError(error))
+                completion(.failure(NetworkError.serializationError(error)))
             }
         }
         task.resume()

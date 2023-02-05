@@ -14,13 +14,21 @@ protocol ViewModelCollectionDataSourceProtocol {
 
 class ArticleViewModel: ArticleViewModelProtocol{
     
-    //TODO: remove state machine
-    enum State {
+    enum State: Equatable {
         case initial
         case loading
         case loaded
         case loadedError(error: Error)
         case loadedEmpty
+        
+        static func == (lhs: ArticleViewModel.State, rhs: ArticleViewModel.State) -> Bool {
+            switch (lhs, rhs) {
+            case (.initial, initial), (.loading, .loading), (.loaded, .loaded), (loadedError, loadedError), (loadedEmpty, loadedEmpty):
+                return true
+            default:
+                return false
+            }
+        }
     }
     
     private let articleService: ArticleServiceProtocol
@@ -74,6 +82,6 @@ extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
 
 extension ArticleViewModel {
     func smallestImageURL(article: Article) -> String? {
-        return article.relatedImages.filter({ $0.url != nil }).min{ $0.size < $1.size }?.url
+        return article.relatedImages.min{ $0.size < $1.size }?.url
     }
 }

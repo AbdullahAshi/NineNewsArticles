@@ -1,3 +1,3 @@
-typealias NetworkCompletionHandler<Model: Codable> = (_ responseData: Model?, _ error: Error?) -> Void
+typealias NetworkCompletionHandler<Model: Codable> = (Result<Model?,Error>) -> Void
 typealias ArticleListCompletionHandler = ([Article]?, Error?) -> Void
 typealias ArticleViewModelDataSourceProtocol = ArticleViewModelProtocol & ViewModelCollectionDataSourceProtocol

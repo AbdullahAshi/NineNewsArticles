@@ -8,6 +8,5 @@
 import Foundation
 
 protocol NetworkServiceProtocol {
-    //TODO: change to Result type
     func get<Model: Codable>(url: URL, completion: @escaping NetworkCompletionHandler<Model>)
 }

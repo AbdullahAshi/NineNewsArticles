@@ -24,11 +24,12 @@ class ArticleService: ArticleServiceProtocol {
     }
     
     func getArticles(completion: @escaping ArticleListCompletionHandler) {
-        networkService.get(url: EndPoints.articlesListURL, completion: { (response: ArticleResponse?, error) in
-            if error != nil {
-                completion(nil, error)
-            } else {
+        networkService.get(url: EndPoints.articlesListURL, completion: { (result: Result<ArticleResponse?, Error>) in
+            switch result {
+            case .success(let response):
                 completion(response?.articles, nil)
+            case .failure(let error):
+                completion(nil, error)
             }
         })
     }

@@ -15,13 +15,13 @@ class MockNetworkSerivce: NetworkServiceProtocol {
     var stubs: Any?
     private(set) var calledCount: Int = 0
     
-    func get<Model>(url: URL, completion: @escaping (Model?, Error?) -> Void) where Model : Codable {
+    func get<Model>(url: URL, completion: @escaping NetworkCompletionHandler<Model>) where Model : Codable {
         calledCount += 1
         switch success {
         case true:
-            completion(stubs as? Model, nil)
+            completion(.success(stubs as? Model))
         case false:
-            completion(nil, HTTPError.invalidResponse)
+            completion(.failure(HTTPError.invalidResponse))
         }
     }
 }
