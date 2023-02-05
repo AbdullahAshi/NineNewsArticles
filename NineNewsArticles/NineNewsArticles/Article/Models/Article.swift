@@ -44,6 +44,10 @@ struct AssetRelatedImage: Codable {
         case thumbnail2X = "thumbnail@2x"
         case thumbnail
     }
+    
+    var size: Int {
+        return width * height
+    }
 }
 
 // MARK: - Encode/decode helpers

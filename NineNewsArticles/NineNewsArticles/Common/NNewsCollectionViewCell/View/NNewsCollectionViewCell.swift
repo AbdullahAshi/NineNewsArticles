@@ -22,7 +22,7 @@ class NNewsCollectionViewCell: UICollectionViewCell {
                 assert(false, "viewModel shouldn't be nil")
                 return
             }
-            setupCell(title: viewModel.headLine, price: viewModel.abstract, signature: viewModel.signature, imageUrl: viewModel.imageUrl)
+            setupCell(headLine: viewModel.headLine, abstract: viewModel.abstract, signature: viewModel.signature, imageUrl: viewModel.imageUrl)
         }
     }
     
@@ -36,11 +36,11 @@ class NNewsCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    private func setupCell(title: String, price: String, signature: String, imageUrl: String) {
+    private func setupCell(headLine: String, abstract: String, signature: String, imageUrl: String) {
         Thread.executeOnMain {
             self.posterImageView.image(for: imageUrl)
-            self.headLineLabel.text = title
-            self.abstractLabel.text = price
+            self.headLineLabel.text = headLine
+            self.abstractLabel.text = abstract
             self.signatureLabel.text = signature == "" ? "unknown" : signature
         }
     }

@@ -137,7 +137,6 @@ extension ArticleCollectionViewController {
 
 private extension ArticleCollectionViewController {
     func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {
-        //TODO: pick the smallest image
-        return NNewsCollectionViewCellViewModel(title: article.headline, price: article.theAbstract, signature: article.byLine , imageUrl: article.relatedImages.first?.url ?? "")
+        return NNewsCollectionViewCellViewModel(title: article.headline, price: article.theAbstract, signature: article.byLine , imageUrl: viewModel.smallestImageURL(article: article) ?? "")
     }
 }

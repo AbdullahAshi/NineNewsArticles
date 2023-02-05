@@ -4,6 +4,7 @@ import UIKit
 protocol ArticleViewModelProtocol {
     var callback: ((ArticleViewModel.State) -> Void)? { set get }
     func loadData()
+    func smallestImageURL(article: Article) -> String?
 }
 
 protocol ViewModelCollectionDataSourceProtocol {
@@ -66,5 +67,13 @@ extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
             return nil
         }
         return articles[index]
+    }
+}
+
+// MARK - Helpers
+
+extension ArticleViewModel {
+    func smallestImageURL(article: Article) -> String? {
+        return article.relatedImages.filter({ $0.url != nil }).min{ $0.size < $1.size }?.url
     }
 }
