@@ -65,7 +65,7 @@ extension ArticleCollectionViewController {
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         Thread.executeOnMain {
-            self.setupLayout(with: size)
+            self.collectionView.collectionViewLayout.invalidateLayout()
         }
     }
     
