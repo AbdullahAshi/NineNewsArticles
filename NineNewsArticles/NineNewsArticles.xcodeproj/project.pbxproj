@@ -39,6 +39,7 @@
 		88F71588298DFB7100518634 /* MockArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71587298DFB7100518634 /* MockArticleService.swift */; };
 		88F7158C298F3F9400518634 /* ArticleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7158B298F3F9400518634 /* ArticleWebViewController.swift */; };
 		88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7158F298F400100518634 /* ArticleWebView.storyboard */; };
+		88F71592298F474B00518634 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 88F71591298F474B00518634 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		88F71587298DFB7100518634 /* MockArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleService.swift; sourceTree = "<group>"; };
 		88F7158B298F3F9400518634 /* ArticleWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebViewController.swift; sourceTree = "<group>"; };
 		88F7158F298F400100518634 /* ArticleWebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArticleWebView.storyboard; sourceTree = "<group>"; };
+		88F71591298F474B00518634 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				88F7150D298D296100518634 /* Assets.xcassets */,
 				88F7150F298D296100518634 /* LaunchScreen.storyboard */,
 				88F71512298D296100518634 /* Info.plist */,
+				88F71591298F474B00518634 /* README.md */,
 				88F71537298D2C8400518634 /* Common */,
 			);
 			path = NineNewsArticles;
@@ -452,6 +455,7 @@
 				88F71511298D296100518634 /* LaunchScreen.storyboard in Resources */,
 				88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */,
 				88F7150E298D296100518634 /* Assets.xcassets in Resources */,
+				88F71592298F474B00518634 /* README.md in Resources */,
 				88F7150C298D296000518634 /* Main.storyboard in Resources */,
 				88F71573298D485E00518634 /* Article.storyboard in Resources */,
 				88F71575298D485E00518634 /* NNewsCollectionViewCell.xib in Resources */,
