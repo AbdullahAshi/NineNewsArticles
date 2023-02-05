@@ -49,7 +49,7 @@ class ArticleViewModel: ArticleViewModelProtocol{
                 return
             }
             
-            self.articles = articles
+            self.articles = articles.sorted(by: { $0.timeStamp > $1.timeStamp })
             self.state = (articles.count > 0) ? .loaded : .loadedEmpty
         })
     }
