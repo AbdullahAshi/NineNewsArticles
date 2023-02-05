@@ -13,11 +13,12 @@ class NetworkServiceTests: XCTestCase {
     let mockUrlSession = MockURLSession()
     lazy var networkService = NetworkService(urlSession: mockUrlSession)
     
-    func testGetArticleListSuccess() throws {
-        //TODO: test with private model
-        mockUrlSession.set(mockInfo: (data: try ArticleResponseFactory.articleData(), statusCode: 200, error: nil))
+    func testSuccess() throws {
+        let response: Response = .init(id: "123451")
+        let data: Data = try JSONEncoder().encode(response)
+        mockUrlSession.set(mockInfo: (data: data, statusCode: 200, error: nil))
         let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
-        networkService.get(url: anyUrl, completion: { (response: ArticleResponse?, error) in
+        networkService.get(url: anyUrl, completion: { (response: Response?, error) in
             XCTAssertNotNil(response, "response is not expected to be nil")
             XCTAssertNil(error, "error should be nil")
             expectation.fulfill()
@@ -25,12 +26,12 @@ class NetworkServiceTests: XCTestCase {
         self.wait(for: [expectation], timeout: 3.0)
     }
     
-    func testGetArticleListFail() throws {
+    func testFail() throws {
         mockUrlSession.set(mockInfo: (data: Data(), statusCode: 404, error: nil))
         
         let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
 
-        networkService.get(url: anyUrl, completion: { (response: ArticleResponse?, error) in
+        networkService.get(url: anyUrl, completion: { (response: Response?, error) in
             XCTAssertNil(response, "response is expected to be nil")
             let networkError = (error as? NetworkError)
             XCTAssertEqual(networkError, NetworkError.invalidResponse("unsuccessful status code"))
@@ -39,6 +40,21 @@ class NetworkServiceTests: XCTestCase {
         self.wait(for: [expectation], timeout: 3.0)
     }
 }
+
+// MARK: - Test Model
+
+private extension NetworkServiceTests {
+
+    struct Response: Codable {
+
+        enum CodingKeys: CodingKey {
+            case id
+        }
+
+        let id: String
+    }
+}
+
 
 class MockURLSession: URLSessionProtocol {
     
