@@ -37,6 +37,8 @@
 		88F7157C298D486900518634 /* NNewsCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71578298D486900518634 /* NNewsCollectionViewCellViewModel.swift */; };
 		88F71583298DECC900518634 /* ArticleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71582298DECC900518634 /* ArticleViewModelTests.swift */; };
 		88F71588298DFB7100518634 /* MockArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71587298DFB7100518634 /* MockArticleService.swift */; };
+		88F7158C298F3F9400518634 /* ArticleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7158B298F3F9400518634 /* ArticleWebViewController.swift */; };
+		88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7158F298F400100518634 /* ArticleWebView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		88F71578298D486900518634 /* NNewsCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNewsCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		88F71582298DECC900518634 /* ArticleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelTests.swift; sourceTree = "<group>"; };
 		88F71587298DFB7100518634 /* MockArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleService.swift; sourceTree = "<group>"; };
+		88F7158B298F3F9400518634 /* ArticleWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebViewController.swift; sourceTree = "<group>"; };
+		88F7158F298F400100518634 /* ArticleWebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArticleWebView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 		88F71503298D296000518634 /* NineNewsArticles */ = {
 			isa = PBXGroup;
 			children = (
+				88F7158A298F3F6300518634 /* ArticleWebView */,
 				88F71545298D2D9D00518634 /* Article */,
 				88F71504298D296000518634 /* AppDelegate.swift */,
 				88F71506298D296000518634 /* SceneDelegate.swift */,
@@ -317,6 +322,23 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		88F7158A298F3F6300518634 /* ArticleWebView */ = {
+			isa = PBXGroup;
+			children = (
+				88F7158D298F3FAB00518634 /* View */,
+			);
+			path = ArticleWebView;
+			sourceTree = "<group>";
+		};
+		88F7158D298F3FAB00518634 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88F7158B298F3F9400518634 /* ArticleWebViewController.swift */,
+				88F7158F298F400100518634 /* ArticleWebView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -428,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F71511298D296100518634 /* LaunchScreen.storyboard in Resources */,
+				88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */,
 				88F7150E298D296100518634 /* Assets.xcassets in Resources */,
 				88F7150C298D296000518634 /* Main.storyboard in Resources */,
 				88F71573298D485E00518634 /* Article.storyboard in Resources */,
@@ -458,6 +481,7 @@
 			files = (
 				88F71559298D306F00518634 /* UIImageView + SDWebImage.swift in Sources */,
 				88F71572298D485E00518634 /* NNewsCollectionViewCell.swift in Sources */,
+				88F7158C298F3F9400518634 /* ArticleWebViewController.swift in Sources */,
 				88F7155C298D306F00518634 /* APIConstants.swift in Sources */,
 				88F71557298D306F00518634 /* TypeAlias.swift in Sources */,
 				88F7157B298D486900518634 /* ArticleViewModel.swift in Sources */,

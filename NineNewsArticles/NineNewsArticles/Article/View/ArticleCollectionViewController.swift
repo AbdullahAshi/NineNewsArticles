@@ -3,7 +3,7 @@ import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
     
     private let estimateCellWidth: CGFloat = 300.0
     private let cellSpacing: CGFloat = 16.0
@@ -129,9 +129,18 @@ extension ArticleCollectionViewController {
 
 extension ArticleCollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //TODO: show in webview
-        //present webview for item
-        //                let item = viewModel.getArticle(at: index)
+        guard let webView = instantiateWebViewController() else {
+            assertionFailure("could not instantiate ArticleWebViewController")
+            return
+        }
+        let item = viewModel.getArticle(at: indexPath.item)
+        webView.url = item?.url
+        self.navigationController?.pushViewController(webView, animated: true)
+    }
+    
+    private func instantiateWebViewController() -> ArticleWebViewController? {
+        return UIStoryboard.init(name: "ArticleWebView", bundle: nil).instantiateViewController(withIdentifier: ArticleWebViewController.storyboardIdentifier)
+                as? ArticleWebViewController
     }
 }
 
