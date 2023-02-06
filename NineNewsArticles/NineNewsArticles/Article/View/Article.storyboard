@@ -10,7 +10,7 @@
         <!--Article Collection View Controller-->
         <scene sceneID="Dfb-lh-XGY">
             <objects>
-                <collectionViewController storyboardIdentifier="Article" id="Hh9-3I-RS0" customClass="ArticleCollectionViewController" customModule="NineNewsArticles" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="ArticleCollectionViewController" id="Hh9-3I-RS0" customClass="ArticleCollectionViewController" customModule="NineNewsArticles" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="jRC-pH-bGE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
