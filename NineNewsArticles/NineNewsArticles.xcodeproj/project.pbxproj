@@ -40,6 +40,7 @@
 		88F7158C298F3F9400518634 /* ArticleWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7158B298F3F9400518634 /* ArticleWebViewController.swift */; };
 		88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7158F298F400100518634 /* ArticleWebView.storyboard */; };
 		88F71592298F474B00518634 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 88F71591298F474B00518634 /* README.md */; };
+		88F715952990915200518634 /* NNewsCollectionViewCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		88F7158B298F3F9400518634 /* ArticleWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebViewController.swift; sourceTree = "<group>"; };
 		88F7158F298F400100518634 /* ArticleWebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArticleWebView.storyboard; sourceTree = "<group>"; };
 		88F71591298F474B00518634 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNewsCollectionViewCellViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		88F71540298D2D0700518634 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				88F715932990913900518634 /* NNewsCollectionViewCell */,
 				88F7155F298D367D00518634 /* Helpers */,
 				88F71541298D2D1C00518634 /* NetworkServiceTests.swift */,
 			);
@@ -340,6 +343,14 @@
 				88F7158F298F400100518634 /* ArticleWebView.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		88F715932990913900518634 /* NNewsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */,
+			);
+			path = NNewsCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,6 +522,7 @@
 				88F7156B298D3BE200518634 /* Mocks+extensions.swift in Sources */,
 				88F71561298D367D00518634 /* MockNetworkSerivce.swift in Sources */,
 				88F71543298D2D1C00518634 /* NetworkServiceTests.swift in Sources */,
+				88F715952990915200518634 /* NNewsCollectionViewCellViewModelTests.swift in Sources */,
 				88F71566298D37FA00518634 /* ArticleServiceTests.swift in Sources */,
 				88F71583298DECC900518634 /* ArticleViewModelTests.swift in Sources */,
 			);

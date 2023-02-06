@@ -51,6 +51,7 @@ class ArticleViewModelTests: XCTestCase {
     }
     
     func testDataSourceProtocolConformance() {
+        XCTAssertNil(articleViewModel.getArticle(at: 0))
         articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]
         articleViewModel.loadData()
         XCTAssertEqual(articleViewModel.numberOfItems(inSection: 0), 3)

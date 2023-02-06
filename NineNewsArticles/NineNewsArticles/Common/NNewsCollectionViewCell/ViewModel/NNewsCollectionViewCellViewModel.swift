@@ -14,9 +14,9 @@ class NNewsCollectionViewCellViewModel: NNewsCollectionViewCellViewModelProtocol
     var signature: String
     var imageUrl: String
     
-    init(title: String, price: String, signature: String, imageUrl: String) {
-        self.headLine = title
-        self.abstract = price
+    init(headLine: String, abstract: String, signature: String, imageUrl: String) {
+        self.headLine = headLine
+        self.abstract = abstract
         self.signature = signature
         self.imageUrl = imageUrl
     }

@@ -146,6 +146,6 @@ extension ArticleCollectionViewController {
 
 private extension ArticleCollectionViewController {
     func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {
-        return NNewsCollectionViewCellViewModel(title: article.headline, price: article.theAbstract, signature: article.byLine , imageUrl: viewModel.smallestImageURL(article: article) ?? "")
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: viewModel.smallestImageURL(article: article) ?? "")
     }
 }
