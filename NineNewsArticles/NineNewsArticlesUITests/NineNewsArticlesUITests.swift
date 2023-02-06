@@ -6,8 +6,7 @@
 //
 
 import XCTest
-
-//TODO: add UIUnit tests
+import SnapshotTesting
 
 class NineNewsArticlesUITests: XCTestCase {
 

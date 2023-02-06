@@ -3,6 +3,8 @@ import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
+    static let storyboardIdentifier = "ArticleCollectionViewController"
+    
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
     
     private let estimateCellWidth: CGFloat = 300.0

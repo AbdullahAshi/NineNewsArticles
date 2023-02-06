@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8879451A2990B2F200414673 /* ArticleCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887945192990B2F200414673 /* ArticleCollectionViewUITests.swift */; };
 		88F71505298D296000518634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71504298D296000518634 /* AppDelegate.swift */; };
 		88F71507298D296000518634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71506298D296000518634 /* SceneDelegate.swift */; };
 		88F7150C298D296000518634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7150A298D296000518634 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		887945192990B2F200414673 /* ArticleCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewUITests.swift; sourceTree = "<group>"; };
 		88F71501298D296000518634 /* NineNewsArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NineNewsArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F71504298D296000518634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F71506298D296000518634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		887945132990A9F400414673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88F714F8298D296000518634 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +142,7 @@
 				88F7151A298D296200518634 /* NineNewsArticlesTests */,
 				88F71524298D296200518634 /* NineNewsArticlesUITests */,
 				88F71502298D296000518634 /* Products */,
+				887945132990A9F400414673 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,6 +281,7 @@
 			children = (
 				88F71582298DECC900518634 /* ArticleViewModelTests.swift */,
 				88F71565298D37FA00518634 /* ArticleServiceTests.swift */,
+				887945192990B2F200414673 /* ArticleCollectionViewUITests.swift */,
 				88F71569298D3BCC00518634 /* Helpers */,
 			);
 			path = Article;
@@ -390,6 +401,8 @@
 				88F71519298D296200518634 /* PBXTargetDependency */,
 			);
 			name = NineNewsArticlesTests;
+			packageProductDependencies = (
+			);
 			productName = NineNewsArticlesTests;
 			productReference = 88F71517298D296200518634 /* NineNewsArticlesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -408,6 +421,8 @@
 				88F71523298D296200518634 /* PBXTargetDependency */,
 			);
 			name = NineNewsArticlesUITests;
+			packageProductDependencies = (
+			);
 			productName = NineNewsArticlesUITests;
 			productReference = 88F71521298D296200518634 /* NineNewsArticlesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -525,6 +540,7 @@
 				88F715952990915200518634 /* NNewsCollectionViewCellViewModelTests.swift in Sources */,
 				88F71566298D37FA00518634 /* ArticleServiceTests.swift in Sources */,
 				88F71583298DECC900518634 /* ArticleViewModelTests.swift in Sources */,
+				8879451A2990B2F200414673 /* ArticleCollectionViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
