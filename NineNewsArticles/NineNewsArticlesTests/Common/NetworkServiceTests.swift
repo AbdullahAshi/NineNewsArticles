@@ -28,16 +28,61 @@ class NetworkServiceTests: XCTestCase {
         self.wait(for: [expectation], timeout: 3.0)
     }
     
-    func testFail() throws {
+    func testUnsuccessfulStatus() throws {
         mockUrlSession.set(mockInfo: (data: Data(), statusCode: 404, error: nil))
         
-        let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
+        let expectation = XCTestExpectation(description: "error should not be nil, and response should be nil")
 
         networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
             guard case .failure(let error) = result else {
-                return XCTFail("Expected to be a success but got a failure with \(result)")
+                return XCTFail("Expected to get an error but got a success \(result)")
             }
             XCTAssertEqual(error as! NetworkError, NetworkError.invalidResponse("unsuccessful status code"))
+            expectation.fulfill()
+        })
+        self.wait(for: [expectation], timeout: 3.0)
+    }
+    
+    func testErrorResponse() throws {
+        mockUrlSession.set(mockInfo: (data: nil, statusCode: 404, error: NetworkError.unexpectedError))
+        
+        let expectation = XCTestExpectation(description: "error should not be nil, and response should be nil")
+
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .failure(let error) = result else {
+                return XCTFail("Expected to get an error but got a success \(result)")
+            }
+            XCTAssertEqual(error as! NetworkError, NetworkError.unexpectedError)
+            expectation.fulfill()
+        })
+        self.wait(for: [expectation], timeout: 3.0)
+    }
+    
+    func testResponseIsNil() throws {
+        mockUrlSession.set(mockInfo: nil)
+        
+        let expectation = XCTestExpectation(description: "error should not be nil, and response should be nil")
+
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .failure(let error) = result else {
+                return XCTFail("Expected to get an error but got a success \(result)")
+            }
+            XCTAssertEqual(error as! NetworkError, NetworkError.invalidResponse("response is nil"))
+            expectation.fulfill()
+        })
+        self.wait(for: [expectation], timeout: 3.0)
+    }
+    
+    func testDataIsNil() throws {
+        mockUrlSession.set(mockInfo: nil)
+        
+        let expectation = XCTestExpectation(description: "error should not be nil, and data should be nil")
+        mockUrlSession.set(mockInfo: (data: nil, statusCode: 200, error: nil))
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .failure(let error) = result else {
+                return XCTFail("Expected to get an error but got a success \(result)")
+            }
+            XCTAssertEqual(error as! NetworkError, NetworkError.invalidResponse("data is nil"))
             expectation.fulfill()
         })
         self.wait(for: [expectation], timeout: 3.0)
@@ -75,7 +120,7 @@ class MockURLSession: URLSessionProtocol {
         if let mockInfo = mockInfo {
             completionHandler(mockInfo.data, mockResponse, mockInfo.error)
         } else {
-            completionHandler(Data(), mockResponse, nil)
+            completionHandler(Data(), nil, nil)
         }
         return nextDataTask
     }
@@ -85,13 +130,13 @@ class MockURLSession: URLSessionProtocol {
         if let mockInfo = mockInfo {
             completionHandler(mockInfo.data, mockResponse, mockInfo.error)
         } else {
-            completionHandler(Data(), mockResponse, nil)
+            completionHandler(Data(), nil, nil)
         }
         return nextDataTask
     }
     
     
-    func set(mockInfo: MockInfo) {
+    func set(mockInfo: MockInfo?) {
         self.mockInfo = mockInfo
     }
     

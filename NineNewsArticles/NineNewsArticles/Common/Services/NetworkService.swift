@@ -43,12 +43,12 @@ final class NetworkService: NetworkServiceProtocol {
                 return
             }
             
-            guard let statusCode = (response as? HTTPURLResponse)?.statusCode else {
-                completion(.failure(NetworkError.invalidResponse("nil status code")))
+            guard let response = (response as? HTTPURLResponse) else {
+                completion(.failure(NetworkError.invalidResponse("response is nil")))
                 return
             }
             
-            guard  200..<299 ~= statusCode else {
+            guard  200..<299 ~= response.statusCode else {
                 completion(.failure(NetworkError.invalidResponse("unsuccessful status code")))
                 return
             }
