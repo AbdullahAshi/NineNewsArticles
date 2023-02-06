@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8879451A2990B2F200414673 /* ArticleCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887945192990B2F200414673 /* ArticleCollectionViewUITests.swift */; };
-		8879451D2990B44000414673 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 8879451C2990B44000414673 /* SnapshotTesting */; };
 		88F71505298D296000518634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71504298D296000518634 /* AppDelegate.swift */; };
 		88F71507298D296000518634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71506298D296000518634 /* SceneDelegate.swift */; };
 		88F7150C298D296000518634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7150A298D296000518634 /* Main.storyboard */; };
@@ -116,7 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8879451D2990B44000414673 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +402,6 @@
 			);
 			name = NineNewsArticlesTests;
 			packageProductDependencies = (
-				8879451C2990B44000414673 /* SnapshotTesting */,
 			);
 			productName = NineNewsArticlesTests;
 			productReference = 88F71517298D296200518634 /* NineNewsArticlesTests.xctest */;
@@ -464,7 +461,6 @@
 			mainGroup = 88F714F8298D296000518634;
 			packageReferences = (
 				88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				8879451B2990B44000414673 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 88F71502298D296000518634 /* Products */;
 			projectDirPath = "";
@@ -882,14 +878,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8879451B2990B44000414673 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
@@ -901,11 +889,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8879451C2990B44000414673 /* SnapshotTesting */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8879451B2990B44000414673 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
-			productName = SnapshotTesting;
-		};
 		88F71535298D2ABE00518634 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */;
