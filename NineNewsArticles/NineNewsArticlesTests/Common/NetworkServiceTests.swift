@@ -87,6 +87,25 @@ class NetworkServiceTests: XCTestCase {
         })
         self.wait(for: [expectation], timeout: 3.0)
     }
+    
+    func testDecodingFail() throws {
+        struct MalformedResponse: Codable {
+            let di: String
+        }
+
+        let data: Data = try JSONEncoder().encode(MalformedResponse(di: "123451"))
+        let expectation = XCTestExpectation(description: "error should be nil, and response shouldn't be nil")
+        
+        mockUrlSession.set(mockInfo: (data: data, statusCode: 200, error: nil))
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .failure(let error) = result else {
+                return XCTFail("Expected to get an error but got a success \(result)")
+            }
+            XCTAssertEqual(error as! NetworkError, NetworkError.serializationError(error))
+            expectation.fulfill()
+        })
+        self.wait(for: [expectation], timeout: 3.0)
+    }
 }
 
 // MARK: - Test Model
