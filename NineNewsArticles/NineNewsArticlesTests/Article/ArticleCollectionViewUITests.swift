@@ -6,8 +6,6 @@
 //
 
 import XCTest
-import SnapshotTesting
-import SDWebImage
 
 @testable import NineNewsArticles
 
@@ -34,30 +32,14 @@ class ArticleCollectionViewUITests: XCTestCase {
                     return
                 }
         
-        articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]
-        //articleViewModel.loadData()
+        let mockItem0 = Article.mock(id: 0)
+        articleSerivce.articles = [mockItem0, .mock(id: 1), .mock(id: 0)]
         vc.setup(viewModel: articleViewModel)
-//        vc.loadViewIfNeeded()
         let _ = vc.view
         
-        //articleViewModel.state == .loaded
-        
-        let navController = UINavigationController(rootViewController: vc)
-        navController.navigationBar.tintColor = .gray
-//        vc.beginAppearanceTransition(true, animated: false)
-//            vc.endAppearanceTransition()
-        UIGraphicsBeginImageContextWithOptions(vc.view.frame.size, false, 0)
-            let context = UIGraphicsGetCurrentContext
-//        vc.view.layer.render(in: context()!)
-//        let image = UIGraphicsGetImageFromCurrentImageContext()
-
-        assertSnapshot(matching: vc, as: .wait(for: 3.0, on: .image))
-        assertSnapshot(matching: vc, as: .image)
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 3 , execute: {
-////            vc.viewDidLoad()
-//            assertSnapshot(matching: vc, as: .image)
-//        })
-        
+        let actualCell = vc.collectionView(vc.collectionView, cellForItemAt: IndexPath(item: 0, section: 0)) as! NNewsCollectionViewCell
+        XCTAssertEqual(actualCell.headLineLabel.text, mockItem0.headline)
+        XCTAssertEqual(vc.collectionView(vc.collectionView, numberOfItemsInSection: 0), 3)
     }
     
 }
