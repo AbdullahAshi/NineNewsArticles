@@ -50,14 +50,14 @@ class ArticleViewModelTests: XCTestCase {
         XCTAssertEqual(articleSerivce.calledCount, 1)
     }
     
-    func testDataSourceProtocolConformance() {
+    func testDataSourceProtocolConformance() throws {
         XCTAssertNil(articleViewModel.getArticle(at: 0))
         articleSerivce.articles = [.mock(id: 0), .mock(id: 1), .mock(id: 0)]
         articleViewModel.loadData()
         XCTAssertEqual(articleViewModel.numberOfItems(inSection: 0), 3)
         
-        let article = try! XCTUnwrap(articleViewModel.getArticle(at: 1))
-        XCTAssertEqual(article.id, 1)
+        let article = try? XCTUnwrap(articleViewModel.getArticle(at: 1))
+        XCTAssertEqual(article?.id, 1)
         
     }
 }
