@@ -8,6 +8,7 @@
 import XCTest
 
 @testable import NineNewsArticles
+import SnapshotTesting
 
 class ArticleViewModelTests: XCTestCase {
     
@@ -60,4 +61,59 @@ class ArticleViewModelTests: XCTestCase {
         XCTAssertEqual(article.id, 1)
         
     }
+    
+    func testScreen() throws {
+        isRecording = false
+        let articleCollectionViewController = try XCTUnwrap(UIStoryboard.init(name: ArticleCollectionViewController.storyboardIdentifier, bundle: nil).instantiateViewController(withIdentifier: ArticleCollectionViewController.identifier) as? ArticleCollectionViewController)
+        let mockViewModel = MockArticleViewModel()
+        articleCollectionViewController.setup(viewModel: mockViewModel)
+        mockViewModel.loadData()
+        assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
+        
+//        let exp = expectation(description: "Test after 5 seconds")
+//        let result = XCTWaiter.wait(for: [exp], timeout: 5.0)
+//        if result == XCTWaiter.Result.timedOut {
+//            assertVCSnapshot(articleCollectionViewController)
+//        } else {
+//            XCTFail("Delay interrupted")
+//        }
+    }
+}
+
+
+class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSourceProtocol {
+    var callback: ((ArticleViewModel.State) -> Void)? = nil
+    
+    private(set) var articles: [Article]? = []
+    
+    private(set) var state: ArticleViewModel.State = .initial {
+        didSet {
+            callback?(state)
+        }
+    }
+    
+    init() {
+    }
+    
+    func loadData() {
+        self.articles = [Article.mock(id: 1), Article.mock(id: 2), Article.mock(id: 3)]
+        self.state = .loaded
+    }
+    
+    func smallestImageURL(article: Article) -> String? {
+        return article.relatedImages.min{ $0.size < $1.size }?.url
+    }
+    
+    func numberOfItems(inSection section: Int) -> Int {
+        return articles?.count ?? 0
+    }
+    
+    func getArticle(at index: Int) -> Article? {
+        guard let articles = articles, index < articles.count else {
+            return nil
+        }
+        return articles[index]
+    }
+    
+    
 }
