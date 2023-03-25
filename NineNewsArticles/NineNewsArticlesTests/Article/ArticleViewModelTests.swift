@@ -63,12 +63,22 @@ class ArticleViewModelTests: XCTestCase {
     }
     
     func testScreen() throws {
-        isRecording = false
         let articleCollectionViewController = try XCTUnwrap(UIStoryboard.init(name: ArticleCollectionViewController.storyboardIdentifier, bundle: nil).instantiateViewController(withIdentifier: ArticleCollectionViewController.identifier) as? ArticleCollectionViewController)
         let mockViewModel = MockArticleViewModel()
-        articleCollectionViewController.setup(viewModel: mockViewModel)
         mockViewModel.loadData()
-        assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
+        articleCollectionViewController.setup(viewModel: mockViewModel)
+        //assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
+        
+        //UIApplication.shared.keyWindow?.rootViewController = articleCollectionViewController
+        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        window?.rootViewController = articleCollectionViewController
+        UIView.setAnimationsEnabled(false)
+
+        articleCollectionViewController.beginAppearanceTransition(true, animated: false)
+        articleCollectionViewController.endAppearanceTransition()
+
+        
+        assertVCSnapshot(articleCollectionViewController)
         
 //        let exp = expectation(description: "Test after 5 seconds")
 //        let result = XCTWaiter.wait(for: [exp], timeout: 5.0)
