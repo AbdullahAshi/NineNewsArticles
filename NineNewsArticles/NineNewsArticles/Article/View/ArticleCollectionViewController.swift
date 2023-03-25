@@ -2,25 +2,49 @@ import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
-    static let storyboardIdentifier = "ArticleCollectionViewController"
+    static let storyboardIdentifier = "Article"
+    static let identifier = "ArticleCollectionViewController"
     
-    @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
+    private var activityIndicator: UIActivityIndicatorView = {
+        let activityIndicator = UIActivityIndicatorView()
+        activityIndicator.isHidden = false
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        return activityIndicator
+    }()
     
     private let estimateCellWidth: CGFloat = 300.0
     private let cellSpacing: CGFloat = 16.0
     
     private var viewModel: ArticleViewModelDataSourceProtocol!
     
+    // don't use this if using storyboards
+    // override func loadView() {
+    // }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(activityIndicator)
+        NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
         
-        if viewModel == nil {
-            let articleViewModel = ArticleViewModel()
-            setup(viewModel: articleViewModel)
-        }
-        viewModel.loadData()
         
         collectionView.register(UINib(nibName: NNewsCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: NNewsCollectionViewCell.identifier)
+        
+        if viewModel != nil {
+            setup(viewModel: viewModel)
+            viewModel.loadData()
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear")
     }
     
     func setup(viewModel: ArticleViewModelDataSourceProtocol) {
@@ -28,6 +52,7 @@ class ArticleCollectionViewController: UICollectionViewController {
         assert(self.viewModel != nil, "View Model is nil.")
         self.viewModel.callback = { [weak self] state in
             guard let self = self else { return }
+            print("the state is here : 🤩\( state )🤩")
             switch state {
             case .initial:
                 break
