@@ -2,7 +2,8 @@ import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
-    static let storyboardIdentifier = "ArticleCollectionViewController"
+    static let storyboardIdentifier = "Article"
+    static let identifier = "ArticleCollectionViewController"
     
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
     
