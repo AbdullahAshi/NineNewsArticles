@@ -70,7 +70,18 @@ class ArticleViewModelTests: XCTestCase {
         //assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
         
         //UIApplication.shared.keyWindow?.rootViewController = articleCollectionViewController
-        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        
+        let window: UIWindow?
+        if #available(iOS 15.0, *) {
+            window = UIApplication.shared.connectedScenes
+                //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
+                .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
+                .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
+                .first(where: \.isKeyWindow) // Finally, keep only the key window
+        } else {
+            window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        }
+        
         window?.rootViewController = articleCollectionViewController
         UIView.setAnimationsEnabled(false)
 
@@ -78,6 +89,7 @@ class ArticleViewModelTests: XCTestCase {
         articleCollectionViewController.endAppearanceTransition()
 
         
+//        assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
         assertVCSnapshot(articleCollectionViewController)
         
 //        let exp = expectation(description: "Test after 5 seconds")
@@ -125,5 +137,10 @@ class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSou
         return articles[index]
     }
     
-    
+    func getCellViewModelForArticle(at index: Int) -> NineNewsArticles.NNewsCollectionViewCellViewModel? {
+        guard let article = getArticle(at: index) else {
+            return nil
+        }
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: nil, fallBackImageName: "mock-article-image")
+    }
 }

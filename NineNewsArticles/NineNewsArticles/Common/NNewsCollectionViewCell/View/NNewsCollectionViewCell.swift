@@ -4,7 +4,8 @@ protocol NNewsCollectionViewCellViewModelProtocol {
     var headLine: String { get }
     var abstract: String { get }
     var signature: String { get }
-    var imageUrl: String { get }
+    var imageUrl: String? { get }
+    var fallBackImageName: String? { get }
 }
 
 class NNewsCollectionViewCell: UICollectionViewCell {
@@ -22,7 +23,7 @@ class NNewsCollectionViewCell: UICollectionViewCell {
                 assert(false, "viewModel shouldn't be nil")
                 return
             }
-            setupCell(headLine: viewModel.headLine, abstract: viewModel.abstract, signature: viewModel.signature, imageUrl: viewModel.imageUrl)
+            setupCell(headLine: viewModel.headLine, abstract: viewModel.abstract, signature: viewModel.signature, imageUrl: viewModel.imageUrl, fallBackImageName: viewModel.fallBackImageName)
         }
     }
     
@@ -36,9 +37,16 @@ class NNewsCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    private func setupCell(headLine: String, abstract: String, signature: String, imageUrl: String) {
+    private func setupCell(headLine: String, abstract: String, signature: String, imageUrl: String?, fallBackImageName: String? = nil) {
         Thread.executeOnMain {
-            self.posterImageView.image(for: imageUrl)
+            if let imageUrl = imageUrl {
+                self.posterImageView.image(for: imageUrl)
+            } else if let fallBackImageName = fallBackImageName {
+                self.posterImageView.image = UIImage(named: fallBackImageName)
+            } else {
+                assertionFailure("both url must not be nil")
+            }
+            
             self.headLineLabel.text = headLine
             self.abstractLabel.text = abstract
             self.signatureLabel.text = signature == "" ? "unknown" : signature
