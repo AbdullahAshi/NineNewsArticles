@@ -67,33 +67,14 @@ class ArticleViewModelTests: XCTestCase {
         let mockViewModel = MockArticleViewModel()
         mockViewModel.loadData()
         articleCollectionViewController.setup(viewModel: mockViewModel)
-        //assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
-        
-        //UIApplication.shared.keyWindow?.rootViewController = articleCollectionViewController
-        
-        let window: UIWindow?
-        if #available(iOS 15.0, *) {
-            window = UIApplication.shared.connectedScenes
-                //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
-                .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
-                .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
-                .first(where: \.isKeyWindow) // Finally, keep only the key window
-        } else {
-            window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-        }
-        
-        window?.rootViewController = articleCollectionViewController
-        UIView.setAnimationsEnabled(false)
 
-        articleCollectionViewController.beginAppearanceTransition(true, animated: false)
-        articleCollectionViewController.endAppearanceTransition()
-
-        
-//        assertVCSnapshot(articleCollectionViewController, waitDuration: 5.0)
         assertVCSnapshot(articleCollectionViewController)
         
-//        let exp = expectation(description: "Test after 5 seconds")
-//        let result = XCTWaiter.wait(for: [exp], timeout: 5.0)
+        //// assertVCSnapshot(articleCollectionViewController, waitDuration: 10.0) //this will make the test work for real urls
+        
+        //// another way to make the wait
+//        let exp = expectation(description: "Test after 10 seconds")
+//        let result = XCTWaiter.wait(for: [exp], timeout: 10.0)
 //        if result == XCTWaiter.Result.timedOut {
 //            assertVCSnapshot(articleCollectionViewController)
 //        } else {

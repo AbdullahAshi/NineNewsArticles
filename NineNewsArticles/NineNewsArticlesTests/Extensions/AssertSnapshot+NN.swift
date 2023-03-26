@@ -22,7 +22,7 @@ import SnapshotTesting
 ///   - testName: The name of the test in which failure occurred. Defaults to the function name of the test case in which this function was called.
 ///   - line: The line number on which failure occurred. Defaults to the line number on which this function was called.
 public func assertVCSnapshot(
-  _ vc: @autoclosure () throws -> UIViewController,
+  _ vc: UIViewController,
   as snapshotting: Snapshotting<UIViewController, UIImage> = .image(on: .iPhoneX, precision: 0.95),
   named name: String? = nil,
   record recording: Bool = false,
@@ -33,8 +33,28 @@ public func assertVCSnapshot(
   line: UInt = #line,
   waitDuration: TimeInterval = 0
 ) {
+    
+    //UIApplication.shared.keyWindow?.rootViewController = articleCollectionViewController
+    
+    let window: UIWindow?
+    if #available(iOS 15.0, *) {
+        window = UIApplication.shared.connectedScenes
+            //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
+            .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
+            .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
+            .first(where: \.isKeyWindow) // Finally, keep only the key window
+    } else {
+        window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+    }
+    
+    window?.rootViewController = vc
+    UIView.setAnimationsEnabled(false)
+
+    vc.beginAppearanceTransition(true, animated: false)
+    vc.endAppearanceTransition()
+    
   let failure = verifySnapshot(
-    matching: try vc(),
+    matching: vc,
     as: .wait(for: waitDuration, on: snapshotting),
     named: name,
     record: recording,
