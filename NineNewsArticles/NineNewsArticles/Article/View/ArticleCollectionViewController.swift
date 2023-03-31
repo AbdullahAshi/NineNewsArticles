@@ -19,9 +19,8 @@ class ArticleCollectionViewController: UICollectionViewController {
             let articleViewModel = ArticleViewModel()
             setup(viewModel: articleViewModel)
         }
-        viewModel.loadData()
-        
         collectionView.register(UINib(nibName: NNewsCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: NNewsCollectionViewCell.identifier)
+        viewModel.loadData()
     }
     
     func setup(viewModel: ArticleViewModelDataSourceProtocol) {

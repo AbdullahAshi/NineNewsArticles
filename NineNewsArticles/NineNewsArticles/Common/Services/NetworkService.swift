@@ -20,8 +20,15 @@ final class NetworkService: NetworkServiceProtocol {
     
     static let shared: NetworkServiceProtocol = NetworkService()
     
-    init(urlSession: URLSessionProtocol = URLSession.shared) {
-        self.urlSession = urlSession
+    init(urlSession: () -> URLSessionProtocol = {
+        let sessionConfig = URLSessionConfiguration.ephemeral
+        sessionConfig.timeoutIntervalForRequest = 10.0
+        sessionConfig.timeoutIntervalForResource = 60.0
+        //sessionConfig.requestCachePolicy = .reloadIgnoringLocalCacheData
+        //sessionConfig.urlCache = nil
+        return URLSession(configuration: sessionConfig)
+    }) {
+        self.urlSession = urlSession()
     }
     
     func get<Model: Codable>(url: URL, completion: @escaping NetworkCompletionHandler<Model>)  {

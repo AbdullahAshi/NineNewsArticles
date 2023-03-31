@@ -11,7 +11,7 @@ import XCTest
 class NetworkServiceTests: XCTestCase {
     let anyUrl = URL(string: "https://www.google.com")!
     let mockUrlSession = MockURLSession()
-    lazy var networkService = NetworkService(urlSession: mockUrlSession)
+    lazy var networkService = NetworkService(urlSession: { return mockUrlSession })
     
     func testSuccess() throws {
         let response: Response = .init(id: "123451")
@@ -56,6 +56,23 @@ class NetworkServiceTests: XCTestCase {
             expectation.fulfill()
         })
         self.wait(for: [expectation], timeout: 3.0)
+    }
+    
+    func testTimeoutError() throws {
+        mockUrlSession.set(mockInfo: (data: nil, statusCode: 404, error: NetworkError.unexpectedError))
+        
+        let expectation = XCTestExpectation(description: "error timout should occur")
+
+        networkService.get(url: anyUrl, completion: { (result: Result<Response?, Error>) in
+            guard case .failure(_) = result else {
+                return XCTFail("Expected to get an error but got a success \(result)")
+            }
+            DispatchQueue.global().asyncAfter(deadline: .now() + 30, execute: {
+                expectation.fulfill()
+            })
+        })
+        let myresult = XCTWaiter().wait(for: [expectation], timeout: 3)
+        XCTAssertEqual(myresult, XCTWaiter.Result.timedOut)
     }
     
     func testResponseIsNil() throws {
