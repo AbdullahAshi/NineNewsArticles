@@ -26,7 +26,7 @@ class ArticleCollectionViewUITests: XCTestCase {
     
     func testArticleCollectionView() {
         
-        guard let vc = UIStoryboard.init(name: "Article", bundle: nil).instantiateViewController(withIdentifier: ArticleCollectionViewController.storyboardIdentifier)
+        guard let vc = UIStoryboard.init(name: "Article", bundle: nil).instantiateViewController(withIdentifier: ArticleCollectionViewController.identifier)
                 as? ArticleCollectionViewController else {
                     XCTFail("couldn't instantiate ViewController")
                     return

@@ -42,6 +42,9 @@
 		88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7158F298F400100518634 /* ArticleWebView.storyboard */; };
 		88F71592298F474B00518634 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 88F71591298F474B00518634 /* README.md */; };
 		88F715952990915200518634 /* NNewsCollectionViewCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */; };
+		A6CA326829CC0FD5005731B3 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = A6CA326729CC0FD5005731B3 /* SnapshotTesting */; };
+		A6CA326B29CD2571005731B3 /* AssertSnapshot+NN.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA326A29CD2571005731B3 /* AssertSnapshot+NN.swift */; };
+		A6E2B8E829CF3CF500D44A87 /* mock_article_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E2B8E729CF3CF500D44A87 /* mock_article_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,8 @@
 		88F7158F298F400100518634 /* ArticleWebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArticleWebView.storyboard; sourceTree = "<group>"; };
 		88F71591298F474B00518634 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNewsCollectionViewCellViewModelTests.swift; sourceTree = "<group>"; };
+		A6CA326A29CD2571005731B3 /* AssertSnapshot+NN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AssertSnapshot+NN.swift"; sourceTree = "<group>"; };
+		A6E2B8E729CF3CF500D44A87 /* mock_article_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mock_article_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CA326829CC0FD5005731B3 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +184,7 @@
 			children = (
 				88F71562298D371500518634 /* Article */,
 				88F71540298D2D0700518634 /* Common */,
+				A6CA326929CD2545005731B3 /* Extensions */,
 			);
 			path = NineNewsArticlesTests;
 			sourceTree = "<group>";
@@ -290,6 +297,7 @@
 		88F71569298D3BCC00518634 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A6E2B8E629CF3CCA00D44A87 /* assets */,
 				88F7156A298D3BE200518634 /* Mocks+extensions.swift */,
 				88F71587298DFB7100518634 /* MockArticleService.swift */,
 			);
@@ -364,6 +372,22 @@
 			path = NNewsCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		A6CA326929CD2545005731B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6CA326A29CD2571005731B3 /* AssertSnapshot+NN.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6E2B8E629CF3CCA00D44A87 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2B8E729CF3CF500D44A87 /* mock_article_image.jpg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,6 +426,7 @@
 			);
 			name = NineNewsArticlesTests;
 			packageProductDependencies = (
+				A6CA326729CC0FD5005731B3 /* SnapshotTesting */,
 			);
 			productName = NineNewsArticlesTests;
 			productReference = 88F71517298D296200518634 /* NineNewsArticlesTests.xctest */;
@@ -461,6 +486,7 @@
 			mainGroup = 88F714F8298D296000518634;
 			packageReferences = (
 				88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				A6CA326629CC0FD5005731B3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 88F71502298D296000518634 /* Products */;
 			projectDirPath = "";
@@ -492,6 +518,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E2B8E829CF3CF500D44A87 /* mock_article_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CA326B29CD2571005731B3 /* AssertSnapshot+NN.swift in Sources */,
 				88F71588298DFB7100518634 /* MockArticleService.swift in Sources */,
 				88F7156B298D3BE200518634 /* Mocks+extensions.swift in Sources */,
 				88F71561298D367D00518634 /* MockNetworkSerivce.swift in Sources */,
@@ -886,6 +914,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		A6CA326629CC0FD5005731B3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -893,6 +929,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
+		};
+		A6CA326729CC0FD5005731B3 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6CA326629CC0FD5005731B3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

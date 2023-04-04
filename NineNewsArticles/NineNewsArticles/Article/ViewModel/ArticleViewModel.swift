@@ -5,11 +5,12 @@ protocol ArticleViewModelProtocol {
     var callback: ((ArticleViewModel.State) -> Void)? { set get }
     func loadData()
     func smallestImageURL(article: Article) -> String?
+    func getArticle(at index: Int) -> Article?
+    func getCellViewModelForArticle(at index: Int) -> NNewsCollectionViewCellViewModel?
 }
 
 protocol ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int
-    func getArticle(at index: Int) -> Article?
 }
 
 class ArticleViewModel: ArticleViewModelProtocol{
@@ -69,13 +70,6 @@ extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int {
         return articles?.count ?? 0
     }
-    
-    func getArticle(at index: Int) -> Article? {
-        guard let articles = articles, index < articles.count else {
-            return nil
-        }
-        return articles[index]
-    }
 }
 
 // MARK - Helpers
@@ -83,5 +77,19 @@ extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
 extension ArticleViewModel {
     func smallestImageURL(article: Article) -> String? {
         return article.relatedImages.min{ $0.size < $1.size }?.url
+    }
+    
+    func getArticle(at index: Int) -> Article? {
+        guard let articles = articles, index < articles.count else {
+            return nil
+        }
+        return articles[index]
+    }
+    
+    func getCellViewModelForArticle(at index: Int) -> NNewsCollectionViewCellViewModel? {
+        guard let article = getArticle(at: index) else {
+            return nil
+        }
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: smallestImageURL(article: article), fallBackImageName: nil)
     }
 }

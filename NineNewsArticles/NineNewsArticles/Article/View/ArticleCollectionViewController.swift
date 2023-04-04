@@ -1,9 +1,9 @@
-import Foundation
 import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
-    static let storyboardIdentifier = "ArticleCollectionViewController"
+    static let storyboardIdentifier = "Article"
+    static let identifier = "ArticleCollectionViewController"
     
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
     
@@ -98,8 +98,11 @@ extension ArticleCollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: NNewsCollectionViewCell.identifier, for: indexPath) as! NNewsCollectionViewCell
-        guard let item = viewModel.getArticle(at: indexPath.item) else { return UICollectionViewCell() }
-        cell.viewModel = getCellViewModel(for: item)
+        guard let cellViewModel = viewModel.getCellViewModelForArticle(at: indexPath.item) else {
+            assertionFailure("cellViewModel should not be nil")
+            return UICollectionViewCell()
+        }
+        cell.viewModel = cellViewModel
         return cell
     }
 }
@@ -142,11 +145,5 @@ extension ArticleCollectionViewController {
     private func instantiateWebViewController() -> ArticleWebViewController? {
         return UIStoryboard.init(name: "ArticleWebView", bundle: nil).instantiateViewController(withIdentifier: ArticleWebViewController.storyboardIdentifier)
                 as? ArticleWebViewController
-    }
-}
-
-private extension ArticleCollectionViewController {
-    func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {
-        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: viewModel.smallestImageURL(article: article) ?? "")
     }
 }
