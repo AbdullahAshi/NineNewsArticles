@@ -90,6 +90,7 @@ extension ArticleViewModel {
         guard let article = getArticle(at: index) else {
             return nil
         }
-        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: smallestImageURL(article: article), fallBackImageName: nil)
+        //TODO: viewModel should not know about cell view model
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: smallestImageURL(article: article))
     }
 }

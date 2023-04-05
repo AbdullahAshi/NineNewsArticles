@@ -67,19 +67,21 @@ class ArticleViewModelTests: XCTestCase {
         let mockViewModel = MockArticleViewModel()
         mockViewModel.loadData()
         articleCollectionViewController.setup(viewModel: mockViewModel)
+        
+        let navCont = UINavigationController(rootViewController: articleCollectionViewController)
 
-        assertVCSnapshot(articleCollectionViewController)
+//        assertVCSnapshot(navCont)
         
         //// assertVCSnapshot(articleCollectionViewController, waitDuration: 10.0) //this will make the test work for real urls
         
         //// another way to make the wait
-//        let exp = expectation(description: "Test after 10 seconds")
-//        let result = XCTWaiter.wait(for: [exp], timeout: 10.0)
-//        if result == XCTWaiter.Result.timedOut {
-//            assertVCSnapshot(articleCollectionViewController)
-//        } else {
-//            XCTFail("Delay interrupted")
-//        }
+        let exp = expectation(description: "Test after 10 seconds")
+        let result = XCTWaiter.wait(for: [exp], timeout: 10.0)
+        if result == XCTWaiter.Result.timedOut {
+            assertVCSnapshot(navCont)
+        } else {
+            XCTFail("Delay interrupted")
+        }
     }
 }
 
@@ -122,6 +124,6 @@ class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSou
         guard let article = getArticle(at: index) else {
             return nil
         }
-        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: nil, fallBackImageName: "mock-article-image")
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: nil)
     }
 }

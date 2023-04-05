@@ -12,13 +12,12 @@ import XCTest
 class NNewsCollectionViewCellViewModelTests: XCTestCase {
 
     func testInitialisation() throws {
-        let cellViewModel = NNewsCollectionViewCellViewModel(headLine: "title test", abstract: "abstract test", signature: "signature test", imageUrl: "image url", fallBackImageName: "image")
+        let cellViewModel = NNewsCollectionViewCellViewModel(headLine: "title test", abstract: "abstract test", signature: "signature test", imageUrl: "image url")
         
         XCTAssertEqual(cellViewModel.headLine, "title test")
         XCTAssertEqual(cellViewModel.abstract, "abstract test")
         XCTAssertEqual(cellViewModel.signature, "signature test")
         XCTAssertEqual(cellViewModel.imageUrl, "image url")
-        XCTAssertEqual(cellViewModel.fallBackImageName, "image")
     }
 
 }

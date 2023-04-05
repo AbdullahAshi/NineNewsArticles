@@ -13,13 +13,11 @@ class NNewsCollectionViewCellViewModel: NNewsCollectionViewCellViewModelProtocol
     var abstract: String
     var signature: String
     var imageUrl: String?
-    var fallBackImageName: String?
     
-    init(headLine: String, abstract: String, signature: String, imageUrl: String?, fallBackImageName: String?) {
+    init(headLine: String, abstract: String, signature: String, imageUrl: String?) {
         self.headLine = headLine
         self.abstract = abstract
         self.signature = signature
         self.imageUrl = imageUrl
-        self.fallBackImageName = fallBackImageName
     }
 }
