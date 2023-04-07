@@ -68,7 +68,7 @@ class ArticleViewModelTests: XCTestCase {
 //        mockViewModel.loadData()
 //        articleCollectionViewController.setup(viewModel: mockViewModel)
         
-//        let navCont = UINavigationController(rootViewController: articleCollectionViewController)
+        let navCont = UINavigationController(rootViewController: articleCollectionViewController)
 //        articleCollectionViewController.loadViewIfNeeded()
         
 //        assertVCSnapshot(navCont, waitDuration: 10.0)
@@ -95,15 +95,15 @@ class ArticleViewModelTests: XCTestCase {
             window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
         }
         
-        window?.rootViewController = articleCollectionViewController
+        window?.rootViewController = navCont
         UIView.setAnimationsEnabled(false)
 
         articleCollectionViewController.beginAppearanceTransition(true, animated: false)
         articleCollectionViewController.endAppearanceTransition()
 
         
-        assertVCSnapshot(articleCollectionViewController, waitDuration: 10.0)
-//        assertVCSnapshot(articleCollectionViewController)
+//        assertVCSnapshot(navCont, waitDuration: 10.0)
+        assertVCSnapshot(navCont)
 
     }
 }
