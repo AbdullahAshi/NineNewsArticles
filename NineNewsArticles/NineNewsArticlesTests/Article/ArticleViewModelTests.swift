@@ -98,12 +98,12 @@ class ArticleViewModelTests: XCTestCase {
         window?.rootViewController = navCont
         UIView.setAnimationsEnabled(false)
 
-        articleCollectionViewController.beginAppearanceTransition(true, animated: false)
-        articleCollectionViewController.endAppearanceTransition()
+        navCont.beginAppearanceTransition(true, animated: false)
+        navCont.endAppearanceTransition()
 
         
-//        assertVCSnapshot(navCont, waitDuration: 10.0)
-        assertVCSnapshot(navCont)
+        assertVCSnapshot(navCont, waitDuration: 10.0)
+//        assertVCSnapshot(articleCollectionViewController)
 
     }
 }
