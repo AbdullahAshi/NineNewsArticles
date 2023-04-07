@@ -60,8 +60,9 @@ fileprivate extension AssetRelatedImage {
 
         //let testBundle = Bundle(for: AssetRelatedImage.self)
         let path = bundle.path(forResource: "mock_article_image", ofType: "jpg")
+        let url = URL(fileURLWithPath: path!)
                 
-        return path ?? ""
+        return url.absoluteString
     }
 }
 

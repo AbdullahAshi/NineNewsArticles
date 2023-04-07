@@ -2,22 +2,38 @@ import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
-    static let storyboardIdentifier = "Article"
-    static let identifier = "ArticleCollectionViewController"
-    
-    @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
+    private var activityIndicator: UIActivityIndicatorView = {
+        let activityIndicator = UIActivityIndicatorView()
+        activityIndicator.isHidden = false
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        return activityIndicator
+    }()
     
     private let estimateCellWidth: CGFloat = 300.0
     private let cellSpacing: CGFloat = 16.0
     
     private var viewModel: ArticleViewModelDataSourceProtocol!
     
+    init(viewModel: ArticleViewModelDataSourceProtocol!) {
+        self.viewModel = viewModel
+//        self.collectionView.setCollectionViewLayout(UICollectionViewFlowLayout(), animated: false)
+        super.init(collectionViewLayout: UICollectionViewFlowLayout())
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(activityIndicator)
+        NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
         
-        if viewModel == nil {
-            let articleViewModel = ArticleViewModel()
-            setup(viewModel: articleViewModel)
+        if let viewModel = viewModel {
+            setup(viewModel: viewModel)
         }
         collectionView.register(UINib(nibName: NNewsCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: NNewsCollectionViewCell.identifier)
         viewModel.loadData()

@@ -39,7 +39,8 @@ class NNewsCollectionViewCell: UICollectionViewCell {
     private func setupCell(headLine: String, abstract: String, signature: String, imageUrl: String?) {
         Thread.executeOnMain {
             if let imageUrl = imageUrl {
-                self.posterImageView.image(for: imageUrl)
+//                self.posterImageView.image(for: imageUrl)
+                self.posterImageView.downloaded(from: imageUrl)
             }            
             self.headLineLabel.text = headLine
             self.abstractLabel.text = abstract
