@@ -84,25 +84,25 @@ class ArticleViewModelTests: XCTestCase {
 //            XCTFail("Delay interrupted")
 //        }
         
-        let window: UIWindow?
-        if #available(iOS 15.0, *) {
-            window = UIApplication.shared.connectedScenes
-                //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
-                .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
-                .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
-                .first(where: \.isKeyWindow) // Finally, keep only the key window
-        } else {
-            window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-        }
-        
-        window?.rootViewController = navCont
-        UIView.setAnimationsEnabled(false)
+//        let window: UIWindow?
+//        if #available(iOS 15.0, *) {
+//            window = UIApplication.shared.connectedScenes
+//                //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
+//                .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
+//                .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
+//                .first(where: \.isKeyWindow) // Finally, keep only the key window
+//        } else {
+//            window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+//        }
+//
+//        window?.rootViewController = navCont
+//        UIView.setAnimationsEnabled(false)
+//
+//        navCont.beginAppearanceTransition(true, animated: false)
+//        navCont.endAppearanceTransition()
 
-        navCont.beginAppearanceTransition(true, animated: false)
-        navCont.endAppearanceTransition()
-
-        
-        assertVCSnapshot(navCont, waitDuration: 10.0)
+//        assertVCSnapshot(navCont)
+        assertVCSnapshot(navCont, waitDuration: 1.0)
 //        assertVCSnapshot(articleCollectionViewController)
 
     }
