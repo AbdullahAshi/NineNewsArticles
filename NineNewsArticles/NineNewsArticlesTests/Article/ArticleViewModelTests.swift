@@ -108,7 +108,7 @@ class ArticleViewModelTests: XCTestCase {
     }
 }
 
-
+//TODO: move MockArticleViewModel to separate file
 class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSourceProtocol {
     var callback: ((ArticleViewModel.State) -> Void)? = nil
     
