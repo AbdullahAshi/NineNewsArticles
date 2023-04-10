@@ -40,6 +40,7 @@ class NNewsCollectionViewCell: UICollectionViewCell {
     private func setupCell(headLine: String, abstract: String, signature: String, imageUrl: String?) {
         Thread.executeOnMain {
             if let imageUrl = imageUrl {
+                //TODO: check if SDWebImage is not causing issues to snapshots testing and delete comment and extension accordingly
 //                self.posterImageView.image(for: imageUrl)
                 self.posterImageView.downloaded(from: imageUrl)
             }            

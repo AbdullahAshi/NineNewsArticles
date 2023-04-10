@@ -16,7 +16,6 @@ class ArticleCollectionViewController: UICollectionViewController {
     
     init(viewModel: ArticleViewModelDataSourceProtocol!) {
         self.viewModel = viewModel
-//        self.collectionView.setCollectionViewLayout(UICollectionViewFlowLayout(), animated: false)
         super.init(collectionViewLayout: UICollectionViewFlowLayout())
     }
     
@@ -50,7 +49,6 @@ class ArticleCollectionViewController: UICollectionViewController {
                 break
             case .loading:
                 Thread.executeOnMain {
-                    // why not this in here :  guard let self = self else { return }
                     self.activityIndicator.startAnimating()
                     self.activityIndicator.isHidden = false
                 }

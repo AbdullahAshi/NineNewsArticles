@@ -24,8 +24,7 @@ final class NetworkService: NetworkServiceProtocol {
         let sessionConfig = URLSessionConfiguration.ephemeral
         sessionConfig.timeoutIntervalForRequest = 10.0
         sessionConfig.timeoutIntervalForResource = 60.0
-        //sessionConfig.requestCachePolicy = .reloadIgnoringLocalCacheData
-        //sessionConfig.urlCache = nil
+        sessionConfig.requestCachePolicy = .reloadIgnoringLocalCacheData
         return URLSession(configuration: sessionConfig)
     }) {
         self.urlSession = urlSession()
