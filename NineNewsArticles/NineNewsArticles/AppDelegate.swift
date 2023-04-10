@@ -7,6 +7,8 @@
 
 import UIKit
 
+//https://stackoverflow.com/a/74933432 XCode issue to be resolved by apple
+// "This method should not be called on the main thread as it may lead to UI unresponsiveness."
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

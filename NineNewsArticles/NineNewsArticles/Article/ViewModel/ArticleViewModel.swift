@@ -4,12 +4,11 @@ import UIKit
 protocol ArticleViewModelProtocol {
     var callback: ((ArticleViewModel.State) -> Void)? { set get }
     func loadData()
-    func smallestImageURL(article: Article) -> String?
+    func getArticle(at index: Int) -> Article?
 }
 
 protocol ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int
-    func getArticle(at index: Int) -> Article?
 }
 
 class ArticleViewModel: ArticleViewModelProtocol{
@@ -69,19 +68,15 @@ extension ArticleViewModel: ViewModelCollectionDataSourceProtocol {
     func numberOfItems(inSection section: Int) -> Int {
         return articles?.count ?? 0
     }
-    
+}
+
+// MARK - Helpers
+
+extension ArticleViewModel {    
     func getArticle(at index: Int) -> Article? {
         guard let articles = articles, index < articles.count else {
             return nil
         }
         return articles[index]
-    }
-}
-
-// MARK - Helpers
-
-extension ArticleViewModel {
-    func smallestImageURL(article: Article) -> String? {
-        return article.relatedImages.min{ $0.size < $1.size }?.url
     }
 }

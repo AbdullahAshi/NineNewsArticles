@@ -29,7 +29,7 @@ extension Article {
 
 fileprivate extension AssetRelatedImage {
     static func mock(assetRelatedImage: AssetRelatedImage = .init(id: 1031731070,
-                                                                  url: "https://www.fairfaxstatic.com.au/content/dam/images/h/2/9/k/s/e/image.related.afrArticleLead.1536x1010.p5ch3u.13zzqx.png/1675404460646.jpg",
+                                                                  url: getFallBackImageURL(),
                                                                   width: 1536,
                                                                   height: 1122,
                                                                   xLarge2X: nil,
@@ -51,5 +51,25 @@ fileprivate extension AssetRelatedImage {
                      thumbnail2X: assetRelatedImage.thumbnail2X,
                      thumbnail: assetRelatedImage.thumbnail)
     }
+    
+    static func getFallBackImageURL() -> String {
+//        if let fileURL = Bundle.main.url(forResource: "some-file", withExtension: "txt") {
+//        }
+        
+        let bundle = BundleClass().bundle
+
+        //let testBundle = Bundle(for: AssetRelatedImage.self)
+        let path = bundle.path(forResource: "mock_article_image", ofType: "jpg")
+        let url = URL(fileURLWithPath: path!)
+                
+        return url.absoluteString
+    }
 }
+
+class BundleClass {
+    var bundle: Bundle {
+        return Bundle(for: type(of: self))
+    }
+}
+
 

@@ -1,7 +1,7 @@
 {
   "pins" : [
     {
-      "identity" : "SDWebImage",
+      "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage",
       "state" : {

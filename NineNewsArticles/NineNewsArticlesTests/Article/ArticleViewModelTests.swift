@@ -8,6 +8,7 @@
 import XCTest
 
 @testable import NineNewsArticles
+import SnapshotTesting
 
 class ArticleViewModelTests: XCTestCase {
     
@@ -59,5 +60,82 @@ class ArticleViewModelTests: XCTestCase {
         let article = try? XCTUnwrap(articleViewModel.getArticle(at: 1))
         XCTAssertEqual(article?.id, 1)
         
+    }
+    
+    func testScreen() throws {
+        let mockViewModel = MockArticleViewModel()
+        let articleCollectionViewController = ArticleCollectionViewController(viewModel: mockViewModel)
+//        mockViewModel.loadData()
+//        articleCollectionViewController.setup(viewModel: mockViewModel)
+        
+        let navCont = UINavigationController(rootViewController: articleCollectionViewController)
+//        articleCollectionViewController.loadViewIfNeeded()
+        
+//        assertVCSnapshot(navCont, waitDuration: 10.0)
+        
+//        assertVCSnapshot(articleCollectionViewController, waitDuration: 10.0) //this will make the test work for real urls
+        
+        //// another way to make the wait
+//        let exp = expectation(description: "Test after 10 seconds")
+//        let result = XCTWaiter.wait(for: [exp], timeout: 10.0)
+//        if result == XCTWaiter.Result.timedOut {
+//            assertVCSnapshot(navCont)
+//        } else {
+//            XCTFail("Delay interrupted")
+//        }
+        
+//        let window: UIWindow?
+//        if #available(iOS 15.0, *) {
+//            window = UIApplication.shared.connectedScenes
+//                //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
+//                .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
+//                .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
+//                .first(where: \.isKeyWindow) // Finally, keep only the key window
+//        } else {
+//            window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+//        }
+//
+//        window?.rootViewController = navCont
+//        UIView.setAnimationsEnabled(false)
+//
+//        navCont.beginAppearanceTransition(true, animated: false)
+//        navCont.endAppearanceTransition()
+
+//        assertVCSnapshot(navCont)
+        assertVCSnapshot(navCont, waitDuration: 1.0)
+//        assertVCSnapshot(articleCollectionViewController)
+
+    }
+}
+
+//TODO: move MockArticleViewModel to separate file
+class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSourceProtocol {
+    var callback: ((ArticleViewModel.State) -> Void)? = nil
+    
+    private(set) var articles: [Article]? = []
+    
+    private(set) var state: ArticleViewModel.State = .initial {
+        didSet {
+            callback?(state)
+        }
+    }
+    
+    init() {
+    }
+    
+    func loadData() {
+        self.articles = [Article.mock(id: 1), Article.mock(id: 2), Article.mock(id: 3)]
+        self.state = .loaded
+    }
+    
+    func numberOfItems(inSection section: Int) -> Int {
+        return articles?.count ?? 0
+    }
+    
+    func getArticle(at index: Int) -> Article? {
+        guard let articles = articles, index < articles.count else {
+            return nil
+        }
+        return articles[index]
     }
 }

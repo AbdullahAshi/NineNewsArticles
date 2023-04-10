@@ -10,7 +10,6 @@
 		8879451A2990B2F200414673 /* ArticleCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887945192990B2F200414673 /* ArticleCollectionViewUITests.swift */; };
 		88F71505298D296000518634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71504298D296000518634 /* AppDelegate.swift */; };
 		88F71507298D296000518634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71506298D296000518634 /* SceneDelegate.swift */; };
-		88F7150C298D296000518634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7150A298D296000518634 /* Main.storyboard */; };
 		88F7150E298D296100518634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F7150D298D296100518634 /* Assets.xcassets */; };
 		88F71511298D296100518634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7150F298D296100518634 /* LaunchScreen.storyboard */; };
 		88F71526298D296200518634 /* NineNewsArticlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71525298D296200518634 /* NineNewsArticlesUITests.swift */; };
@@ -31,7 +30,6 @@
 		88F71566298D37FA00518634 /* ArticleServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71565298D37FA00518634 /* ArticleServiceTests.swift */; };
 		88F7156B298D3BE200518634 /* Mocks+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7156A298D3BE200518634 /* Mocks+extensions.swift */; };
 		88F71572298D485E00518634 /* NNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7156E298D485E00518634 /* NNewsCollectionViewCell.swift */; };
-		88F71573298D485E00518634 /* Article.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7156F298D485E00518634 /* Article.storyboard */; };
 		88F71574298D485E00518634 /* ArticleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71570298D485E00518634 /* ArticleCollectionViewController.swift */; };
 		88F71575298D485E00518634 /* NNewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F71571298D485E00518634 /* NNewsCollectionViewCell.xib */; };
 		88F7157B298D486900518634 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71577298D486900518634 /* ArticleViewModel.swift */; };
@@ -42,6 +40,9 @@
 		88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7158F298F400100518634 /* ArticleWebView.storyboard */; };
 		88F71592298F474B00518634 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 88F71591298F474B00518634 /* README.md */; };
 		88F715952990915200518634 /* NNewsCollectionViewCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */; };
+		A6CA326829CC0FD5005731B3 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = A6CA326729CC0FD5005731B3 /* SnapshotTesting */; };
+		A6CA326B29CD2571005731B3 /* AssertSnapshot+NN.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA326A29CD2571005731B3 /* AssertSnapshot+NN.swift */; };
+		A6E2B8E829CF3CF500D44A87 /* mock_article_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E2B8E729CF3CF500D44A87 /* mock_article_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +67,6 @@
 		88F71501298D296000518634 /* NineNewsArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NineNewsArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F71504298D296000518634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F71506298D296000518634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88F7150B298D296000518634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88F7150D298D296100518634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F71510298D296100518634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F71512298D296100518634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +89,6 @@
 		88F71565298D37FA00518634 /* ArticleServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleServiceTests.swift; sourceTree = "<group>"; };
 		88F7156A298D3BE200518634 /* Mocks+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mocks+extensions.swift"; sourceTree = "<group>"; };
 		88F7156E298D485E00518634 /* NNewsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNewsCollectionViewCell.swift; sourceTree = "<group>"; };
-		88F7156F298D485E00518634 /* Article.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Article.storyboard; sourceTree = "<group>"; };
 		88F71570298D485E00518634 /* ArticleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCollectionViewController.swift; sourceTree = "<group>"; };
 		88F71571298D485E00518634 /* NNewsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNewsCollectionViewCell.xib; sourceTree = "<group>"; };
 		88F71577298D486900518634 /* ArticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
@@ -100,6 +99,8 @@
 		88F7158F298F400100518634 /* ArticleWebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArticleWebView.storyboard; sourceTree = "<group>"; };
 		88F71591298F474B00518634 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		88F715942990915200518634 /* NNewsCollectionViewCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNewsCollectionViewCellViewModelTests.swift; sourceTree = "<group>"; };
+		A6CA326A29CD2571005731B3 /* AssertSnapshot+NN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AssertSnapshot+NN.swift"; sourceTree = "<group>"; };
+		A6E2B8E729CF3CF500D44A87 /* mock_article_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mock_article_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CA326829CC0FD5005731B3 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +165,6 @@
 				88F71545298D2D9D00518634 /* Article */,
 				88F71504298D296000518634 /* AppDelegate.swift */,
 				88F71506298D296000518634 /* SceneDelegate.swift */,
-				88F7150A298D296000518634 /* Main.storyboard */,
 				88F7150D298D296100518634 /* Assets.xcassets */,
 				88F7150F298D296100518634 /* LaunchScreen.storyboard */,
 				88F71512298D296100518634 /* Info.plist */,
@@ -178,6 +179,7 @@
 			children = (
 				88F71562298D371500518634 /* Article */,
 				88F71540298D2D0700518634 /* Common */,
+				A6CA326929CD2545005731B3 /* Extensions */,
 			);
 			path = NineNewsArticlesTests;
 			sourceTree = "<group>";
@@ -290,6 +292,7 @@
 		88F71569298D3BCC00518634 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A6E2B8E629CF3CCA00D44A87 /* assets */,
 				88F7156A298D3BE200518634 /* Mocks+extensions.swift */,
 				88F71587298DFB7100518634 /* MockArticleService.swift */,
 			);
@@ -299,7 +302,6 @@
 		88F7156C298D476D00518634 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				88F7156F298D485E00518634 /* Article.storyboard */,
 				88F71570298D485E00518634 /* ArticleCollectionViewController.swift */,
 			);
 			path = View;
@@ -364,6 +366,22 @@
 			path = NNewsCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		A6CA326929CD2545005731B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6CA326A29CD2571005731B3 /* AssertSnapshot+NN.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6E2B8E629CF3CCA00D44A87 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2B8E729CF3CF500D44A87 /* mock_article_image.jpg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,6 +420,7 @@
 			);
 			name = NineNewsArticlesTests;
 			packageProductDependencies = (
+				A6CA326729CC0FD5005731B3 /* SnapshotTesting */,
 			);
 			productName = NineNewsArticlesTests;
 			productReference = 88F71517298D296200518634 /* NineNewsArticlesTests.xctest */;
@@ -461,6 +480,7 @@
 			mainGroup = 88F714F8298D296000518634;
 			packageReferences = (
 				88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				A6CA326629CC0FD5005731B3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 88F71502298D296000518634 /* Products */;
 			projectDirPath = "";
@@ -482,8 +502,6 @@
 				88F71590298F400100518634 /* ArticleWebView.storyboard in Resources */,
 				88F7150E298D296100518634 /* Assets.xcassets in Resources */,
 				88F71592298F474B00518634 /* README.md in Resources */,
-				88F7150C298D296000518634 /* Main.storyboard in Resources */,
-				88F71573298D485E00518634 /* Article.storyboard in Resources */,
 				88F71575298D485E00518634 /* NNewsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +510,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E2B8E829CF3CF500D44A87 /* mock_article_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CA326B29CD2571005731B3 /* AssertSnapshot+NN.swift in Sources */,
 				88F71588298DFB7100518634 /* MockArticleService.swift in Sources */,
 				88F7156B298D3BE200518634 /* Mocks+extensions.swift in Sources */,
 				88F71561298D367D00518634 /* MockNetworkSerivce.swift in Sources */,
@@ -569,14 +589,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88F7150A298D296000518634 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88F7150B298D296000518634 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88F7150F298D296100518634 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -716,7 +728,6 @@
 				INFOPLIST_FILE = NineNewsArticles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -744,7 +755,6 @@
 				INFOPLIST_FILE = NineNewsArticles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -886,6 +896,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		A6CA326629CC0FD5005731B3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -893,6 +911,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 88F71534298D2ABE00518634 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
+		};
+		A6CA326729CC0FD5005731B3 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6CA326629CC0FD5005731B3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

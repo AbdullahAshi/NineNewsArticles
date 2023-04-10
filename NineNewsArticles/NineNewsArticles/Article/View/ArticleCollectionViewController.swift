@@ -1,23 +1,40 @@
-import Foundation
 import UIKit
 
 class ArticleCollectionViewController: UICollectionViewController {
     
-    static let storyboardIdentifier = "ArticleCollectionViewController"
-    
-    @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
+    private var activityIndicator: UIActivityIndicatorView = {
+        let activityIndicator = UIActivityIndicatorView()
+        activityIndicator.isHidden = false
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        return activityIndicator
+    }()
     
     private let estimateCellWidth: CGFloat = 300.0
     private let cellSpacing: CGFloat = 16.0
     
     private var viewModel: ArticleViewModelDataSourceProtocol!
     
+    init(viewModel: ArticleViewModelDataSourceProtocol!) {
+        self.viewModel = viewModel
+//        self.collectionView.setCollectionViewLayout(UICollectionViewFlowLayout(), animated: false)
+        super.init(collectionViewLayout: UICollectionViewFlowLayout())
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        collectionView.backgroundColor = .systemGray5
+        view.addSubview(activityIndicator)
+        NSLayoutConstraint.activate([
+            activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            activityIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
         
-        if viewModel == nil {
-            let articleViewModel = ArticleViewModel()
-            setup(viewModel: articleViewModel)
+        if let viewModel = viewModel {
+            setup(viewModel: viewModel)
         }
         collectionView.register(UINib(nibName: NNewsCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: NNewsCollectionViewCell.identifier)
         viewModel.loadData()
@@ -98,8 +115,11 @@ extension ArticleCollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: NNewsCollectionViewCell.identifier, for: indexPath) as! NNewsCollectionViewCell
-        guard let item = viewModel.getArticle(at: indexPath.item) else { return UICollectionViewCell() }
-        cell.viewModel = getCellViewModel(for: item)
+        guard let cellViewModel = getCellViewModelForArticle(at: indexPath.item) else {
+            assertionFailure("cellViewModel should not be nil")
+            return UICollectionViewCell()
+        }
+        cell.viewModel = cellViewModel
         return cell
     }
 }
@@ -122,7 +142,7 @@ extension ArticleCollectionViewController {
         alert.addAction(UIAlertAction(title: "Try Again", style: .default, handler: { _ in
             self.viewModel.loadData()
         }))
-        self.present(alert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil)
     }
 }
 
@@ -130,13 +150,13 @@ extension ArticleCollectionViewController {
 
 extension ArticleCollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let webView = instantiateWebViewController() else {
+        guard let webView = instantiateWebViewController(), navigationController != nil else {
             assertionFailure("could not instantiate ArticleWebViewController")
             return
         }
         let item = viewModel.getArticle(at: indexPath.item)
         webView.url = item?.url
-        self.navigationController?.pushViewController(webView, animated: true)
+        navigationController?.pushViewController(webView, animated: true)
     }
     
     private func instantiateWebViewController() -> ArticleWebViewController? {
@@ -146,7 +166,10 @@ extension ArticleCollectionViewController {
 }
 
 private extension ArticleCollectionViewController {
-    func getCellViewModel(for article: Article) -> NNewsCollectionViewCellViewModel {
-        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: viewModel.smallestImageURL(article: article) ?? "")
+    func getCellViewModelForArticle(at index: Int) -> NNewsCollectionViewCellViewModel? {
+        guard let article = viewModel.getArticle(at: index) else {
+            return nil
+        }
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: article.smallestImageURL)
     }
 }
