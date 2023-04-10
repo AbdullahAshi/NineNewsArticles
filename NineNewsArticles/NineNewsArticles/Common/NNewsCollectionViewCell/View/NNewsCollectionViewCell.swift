@@ -11,6 +11,7 @@ class NNewsCollectionViewCell: UICollectionViewCell {
     
     static let identifier: String = "NNewsCollectionViewCell"
     
+    //TODO: make abstractLabel multiline and cell have dynamic height
     @IBOutlet weak var posterImageView: UIImageView!
     @IBOutlet weak var headLineLabel: UILabel!
     @IBOutlet weak var abstractLabel: UILabel!
