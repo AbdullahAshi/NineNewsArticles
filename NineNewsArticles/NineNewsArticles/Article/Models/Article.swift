@@ -25,6 +25,7 @@ struct Article: Codable {
     let relatedImages: [AssetRelatedImage]
     let timeStamp: Int
     
+    //TODO: add tests
     var smallestImageURL: String? {
         return relatedImages.min{ $0.size < $1.size }?.url
     }
