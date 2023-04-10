@@ -115,7 +115,7 @@ extension ArticleCollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: NNewsCollectionViewCell.identifier, for: indexPath) as! NNewsCollectionViewCell
-        guard let cellViewModel = viewModel.getCellViewModelForArticle(at: indexPath.item) else {
+        guard let cellViewModel = self.getCellViewModelForArticle(at: indexPath.item) else {
             assertionFailure("cellViewModel should not be nil")
             return UICollectionViewCell()
         }
@@ -162,5 +162,14 @@ extension ArticleCollectionViewController {
     private func instantiateWebViewController() -> ArticleWebViewController? {
         return UIStoryboard.init(name: "ArticleWebView", bundle: nil).instantiateViewController(withIdentifier: ArticleWebViewController.storyboardIdentifier)
                 as? ArticleWebViewController
+    }
+}
+
+private extension ArticleCollectionViewController {
+    func getCellViewModelForArticle(at index: Int) -> NNewsCollectionViewCellViewModel? {
+        guard let article = viewModel.getArticle(at: index) else {
+            return nil
+        }
+        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: article.smallestImageURL)
     }
 }

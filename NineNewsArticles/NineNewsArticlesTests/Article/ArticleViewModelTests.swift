@@ -128,10 +128,6 @@ class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSou
         self.state = .loaded
     }
     
-    func smallestImageURL(article: Article) -> String? {
-        return article.relatedImages.min{ $0.size < $1.size }?.url
-    }
-    
     func numberOfItems(inSection section: Int) -> Int {
         return articles?.count ?? 0
     }
@@ -141,13 +137,5 @@ class MockArticleViewModel: ArticleViewModelProtocol, ViewModelCollectionDataSou
             return nil
         }
         return articles[index]
-    }
-    
-    func getCellViewModelForArticle(at index: Int) -> NineNewsArticles.NNewsCollectionViewCellViewModel? {
-        guard let article = getArticle(at: index) else {
-            return nil
-        }
-        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: smallestImageURL(article: article)
-        )
     }
 }

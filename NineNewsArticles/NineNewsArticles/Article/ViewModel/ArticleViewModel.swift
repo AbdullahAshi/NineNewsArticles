@@ -6,7 +6,6 @@ protocol ArticleViewModelProtocol {
     func loadData()
     func smallestImageURL(article: Article) -> String?
     func getArticle(at index: Int) -> Article?
-    func getCellViewModelForArticle(at index: Int) -> NNewsCollectionViewCellViewModel?
 }
 
 protocol ViewModelCollectionDataSourceProtocol {
@@ -84,13 +83,5 @@ extension ArticleViewModel {
             return nil
         }
         return articles[index]
-    }
-    
-    func getCellViewModelForArticle(at index: Int) -> NNewsCollectionViewCellViewModel? {
-        guard let article = getArticle(at: index) else {
-            return nil
-        }
-        //TODO: viewModel should not know about cell view model
-        return NNewsCollectionViewCellViewModel(headLine: article.headline, abstract: article.theAbstract, signature: article.byLine , imageUrl: smallestImageURL(article: article))
     }
 }
