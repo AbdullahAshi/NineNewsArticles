@@ -26,7 +26,7 @@ class ArticleCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.collectionView.backgroundColor = .systemGray5
+        collectionView.backgroundColor = .systemGray5
         view.addSubview(activityIndicator)
         NSLayoutConstraint.activate([
             activityIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -115,7 +115,7 @@ extension ArticleCollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: NNewsCollectionViewCell.identifier, for: indexPath) as! NNewsCollectionViewCell
-        guard let cellViewModel = self.getCellViewModelForArticle(at: indexPath.item) else {
+        guard let cellViewModel = getCellViewModelForArticle(at: indexPath.item) else {
             assertionFailure("cellViewModel should not be nil")
             return UICollectionViewCell()
         }
@@ -142,7 +142,7 @@ extension ArticleCollectionViewController {
         alert.addAction(UIAlertAction(title: "Try Again", style: .default, handler: { _ in
             self.viewModel.loadData()
         }))
-        self.present(alert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil)
     }
 }
 
@@ -156,7 +156,7 @@ extension ArticleCollectionViewController {
         }
         let item = viewModel.getArticle(at: indexPath.item)
         webView.url = item?.url
-        self.navigationController?.pushViewController(webView, animated: true)
+        navigationController?.pushViewController(webView, animated: true)
     }
     
     private func instantiateWebViewController() -> ArticleWebViewController? {
