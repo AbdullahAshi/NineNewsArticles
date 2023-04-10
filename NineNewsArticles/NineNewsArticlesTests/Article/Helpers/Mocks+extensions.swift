@@ -53,12 +53,8 @@ fileprivate extension AssetRelatedImage {
     }
     
     static func getFallBackImageURL() -> String {
-//        if let fileURL = Bundle.main.url(forResource: "some-file", withExtension: "txt") {
-//        }
         
         let bundle = BundleClass().bundle
-
-        //let testBundle = Bundle(for: AssetRelatedImage.self)
         let path = bundle.path(forResource: "mock_article_image", ofType: "jpg")
         let url = URL(fileURLWithPath: path!)
                 
@@ -66,7 +62,7 @@ fileprivate extension AssetRelatedImage {
     }
 }
 
-class BundleClass {
+private class BundleClass {
     var bundle: Bundle {
         return Bundle(for: type(of: self))
     }

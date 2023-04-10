@@ -65,46 +65,8 @@ class ArticleViewModelTests: XCTestCase {
     func testScreen() throws {
         let mockViewModel = MockArticleViewModel()
         let articleCollectionViewController = ArticleCollectionViewController(viewModel: mockViewModel)
-//        mockViewModel.loadData()
-//        articleCollectionViewController.setup(viewModel: mockViewModel)
-        
         let navCont = UINavigationController(rootViewController: articleCollectionViewController)
-//        articleCollectionViewController.loadViewIfNeeded()
-        
-//        assertVCSnapshot(navCont, waitDuration: 10.0)
-        
-//        assertVCSnapshot(articleCollectionViewController, waitDuration: 10.0) //this will make the test work for real urls
-        
-        //// another way to make the wait
-//        let exp = expectation(description: "Test after 10 seconds")
-//        let result = XCTWaiter.wait(for: [exp], timeout: 10.0)
-//        if result == XCTWaiter.Result.timedOut {
-//            assertVCSnapshot(navCont)
-//        } else {
-//            XCTFail("Delay interrupted")
-//        }
-        
-//        let window: UIWindow?
-//        if #available(iOS 15.0, *) {
-//            window = UIApplication.shared.connectedScenes
-//                //.filter { $0.activationState == .foregroundActive } // Keep only active scenes, onscreen and visible to the user
-//                .first(where: { $0 is UIWindowScene }) // Keep only the first `UIWindowScene`
-//                .flatMap({ $0 as? UIWindowScene })?.windows // Get its associated windows
-//                .first(where: \.isKeyWindow) // Finally, keep only the key window
-//        } else {
-//            window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-//        }
-//
-//        window?.rootViewController = navCont
-//        UIView.setAnimationsEnabled(false)
-//
-//        navCont.beginAppearanceTransition(true, animated: false)
-//        navCont.endAppearanceTransition()
-
-//        assertVCSnapshot(navCont)
         assertVCSnapshot(navCont, waitDuration: 1.0)
-//        assertVCSnapshot(articleCollectionViewController)
-
     }
 }
 
