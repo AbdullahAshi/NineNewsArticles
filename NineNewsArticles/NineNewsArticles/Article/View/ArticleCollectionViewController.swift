@@ -150,7 +150,7 @@ extension ArticleCollectionViewController {
 
 extension ArticleCollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let webView = instantiateWebViewController() else {
+        guard let webView = instantiateWebViewController(), navigationController != nil else {
             assertionFailure("could not instantiate ArticleWebViewController")
             return
         }

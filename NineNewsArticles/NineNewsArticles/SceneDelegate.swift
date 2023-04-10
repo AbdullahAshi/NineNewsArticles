@@ -19,10 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //        guard let _ = (scene as? UIWindowScene) else { return }
         
+        //TODO: fix landscape initial state of application
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        let viewController = ArticleCollectionViewController(viewModel: ArticleViewModel())
-        window.rootViewController = viewController
+        let navigationController = UINavigationController(rootViewController: ArticleCollectionViewController(viewModel: ArticleViewModel()))
+        window.rootViewController = navigationController
         self.window = window
         window.makeKeyAndVisible()
     }
