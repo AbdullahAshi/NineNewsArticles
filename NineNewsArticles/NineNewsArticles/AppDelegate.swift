@@ -16,8 +16,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    #if DEBUG
+        registerDefaultsFromSettingsBundle()
+    #endif
         return true
     }
+    
+    #if DEBUG
+        func registerDefaultsFromSettingsBundle() {
+            func register(from dict: NSDictionary) {
+                let preferences: NSArray = dict["PreferenceSpecifiers"] as! NSArray
+                let defaults: [String: AnyObject] = preferences.compactMap { value -> (String, AnyObject)? in
+                    guard let value = value as? [String: AnyObject] else {
+                        return nil
+                    }
+                    
+                    guard let key: String = value["Key"] as? String, let value = value["DefaultValue"] else {
+                        return nil
+                    }
+                    
+                    return (key, value)
+                }
+                    .reduce(into: [:]) { $0[$1.0] = $1.1 }
+                    .filter { UserDefaults.standard.value(forKey: $0.key).isNil }
+                
+                UserDefaults.standard.register(defaults: defaults)
+            }
+            
+            guard let settingsBundle = Bundle.main.path(forResource: "Settings", ofType: "bundle") else {
+                return
+            }
+            
+            let plists: [String] = [
+                "Root",
+                "DevSwitches",
+            ]
+            
+            plists.forEach {
+                if let dic = NSDictionary(contentsOfFile: "\(settingsBundle)/\($0).plist") {
+                    register(from: dic)
+                } else {
+                    assertionFailure("\(settingsBundle)/\($0).plist")
+                }
+            }
+        }
+    #endif
 
     // MARK: UISceneSession Lifecycle
 
