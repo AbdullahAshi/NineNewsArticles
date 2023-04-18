@@ -50,17 +50,22 @@ class ArticleViewModel: ArticleViewModelProtocol{
     
     func loadData() {
         state = .loading
-        articleService.getArticles(completion: { [weak self] (articles, error) in
-            guard let self = self else { return }
-            
-            guard error == nil, let articles = articles else {
-                self.state = .loadedError(error: error ?? NetworkError.unexpectedError)
-                return
-            }
-            
-            self.articles = articles.sorted(by: { $0.timeStamp > $1.timeStamp })
-            self.state = (articles.count > 0) ? .loaded : .loadedEmpty
-        })
+        if devSwitch.mock {
+            self.articles = [Article.mock(id: 1), Article.mock(id: 2), Article.mock(id: 3)]
+            self.state = .loaded
+        } else {
+            articleService.getArticles(completion: { [weak self] (articles, error) in
+                guard let self = self else { return }
+                
+                guard error == nil, let articles = articles else {
+                    self.state = .loadedError(error: error ?? NetworkError.unexpectedError)
+                    return
+                }
+                
+                self.articles = articles.sorted(by: { $0.timeStamp > $1.timeStamp })
+                self.state = (articles.count > 0) ? .loaded : .loadedEmpty
+            })
+        }
     }
 }
 

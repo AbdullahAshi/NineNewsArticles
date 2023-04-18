@@ -7,8 +7,6 @@
 
 import Foundation
 
-@testable import NineNewsArticles
-
 extension Article {
     static func mock(id: Int = 0,
                      url: String = "https://www.9news.com/article/test",

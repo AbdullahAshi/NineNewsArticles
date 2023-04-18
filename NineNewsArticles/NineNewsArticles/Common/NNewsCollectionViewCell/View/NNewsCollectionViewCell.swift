@@ -41,8 +41,8 @@ class NNewsCollectionViewCell: UICollectionViewCell {
         Thread.executeOnMain {
             if let imageUrl = imageUrl {
                 //TODO: check if SDWebImage is not causing issues to snapshots testing and delete comment and extension accordingly
-//                self.posterImageView.image(for: imageUrl)
-                self.posterImageView.downloaded(from: imageUrl)
+                self.posterImageView.image(for: imageUrl)
+//                self.posterImageView.downloaded(from: imageUrl)
             }            
             self.headLineLabel.text = headLine
             self.abstractLabel.text = abstract
