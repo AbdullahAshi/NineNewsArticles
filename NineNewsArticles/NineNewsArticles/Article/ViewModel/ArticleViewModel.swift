@@ -40,9 +40,11 @@ class ArticleViewModel: ArticleViewModelProtocol{
     }
     
     private(set) var articles: [Article]?
+    private let devSwitch: DevSwitching
     
-    init(articleService: ArticleServiceProtocol = ArticleService()) {
+    init(articleService: ArticleServiceProtocol = ArticleService(), devSwitch: DevSwitching = DevSwitch.shared) {
         self.articleService = articleService
+        self.devSwitch = devSwitch
         state = .initial
     }
     

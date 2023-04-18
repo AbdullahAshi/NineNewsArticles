@@ -8,6 +8,5 @@
 import Foundation
 
 final class MockDevSwitching: DevSwitching {
-    var releaseCasuMarzu: Bool = false
-    var publicRelease: Bool = false
+    var mock: Bool = false
 }

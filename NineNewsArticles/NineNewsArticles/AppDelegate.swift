@@ -48,8 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             
             let plists: [String] = [
-                "Root",
-                "DevSwitches",
+                "Root"
             ]
             
             plists.forEach {

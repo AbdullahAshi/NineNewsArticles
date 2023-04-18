@@ -12,9 +12,9 @@ final class DevSwitchingTests: XCTestCase {
 
     // MARK: - Properties
 
-    private let devSwitch: DevSwitch = .init()
+    private let devSwitch: DevSwitch = DevSwitch.shared
     private lazy var switches: [TestData] = [
-        .init(key: "publicRelease", defaultValue: false, keyPath: \.publicRelease),
+        .init(key: "mock", defaultValue: false, keyPath: \.mock),
     ]
 
     // MARK: - Tests
@@ -23,7 +23,7 @@ final class DevSwitchingTests: XCTestCase {
         let userDefaults: UserDefaults = .standard
 
         switches.forEach {
-            let key: String = "setting.devSwitch.\($0.key)"
+            let key: String = "setting.\($0.key)"
 
             userDefaults.set(false, forKey: key)
 

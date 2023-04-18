@@ -10,135 +10,17 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Okta</string>
+			<string>Toggle Group</string>
 		</dict>
 		<dict>
 			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
+			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Environment</string>
-			<key>Key</key>
-			<string>setting.okta</string>
-			<key>Values</key>
-			<array>
-				<string>https://member-auth-sit.usmnpz.com.au/oauth2/auss7a23l8OUGYOqg0h7/v1</string>
-				<string>https://member-auth-rgr.usmnpz.com.au/oauth2/aus53kr0ysQtCvZPy3l6/v1</string>
-				<string>https://unisupermember.okta.com/oauth2/aus8sdt7iwCLjJYNG3l6/v1</string>
-				<string>Custom</string>
-			</array>
-			<key>Titles</key>
-			<array>
-				<string>SIT</string>
-				<string>Regression</string>
-				<string>Prod</string>
-				<string>Custom</string>
-			</array>
+			<string>Mock</string>
 			<key>DefaultValue</key>
-			<string>https://member-auth-sit.usmnpz.com.au/oauth2/auss7a23l8OUGYOqg0h7/v1</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>Custom</string>
+			<false/>
 			<key>Key</key>
-			<string>setting.okta.custom</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Title</key>
-			<string>ClientID</string>
-			<key>Key</key>
-			<string>setting.okta.clientid</string>
-			<key>Values</key>
-			<array>
-				<string>0oa16amlkp4JdQ2RT0h8</string>
-				<string>0oa1hvo97s7nu9Thy3l7</string>
-				<string>0oa1kcm4souoQkIxz3l7</string>
-				<string>Custom</string>
-			</array>
-			<key>Titles</key>
-			<array>
-				<string>SIT</string>
-				<string>Regression</string>
-				<string>Prod</string>
-				<string>Custom</string>
-			</array>
-			<key>DefaultValue</key>
-			<string>0oa16amlkp4JdQ2RT0h8</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>Custom</string>
-			<key>Key</key>
-			<string>setting.okta.clientid.custom</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>Access Token</string>
-			<key>Key</key>
-			<string>setting.okta.accesstoken</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-			<key>Title</key>
-			<string>BFF</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Title</key>
-			<string>Environment</string>
-			<key>Key</key>
-			<string>setting.bff</string>
-			<key>Values</key>
-			<array>
-				<string>https://apiservices-dev.usmnpz.com.au/mock/v1</string>
-                <string>https://apiservices-dev.usmnpz.com.au/v1/mobile-api</string>
-				<string>https://apiservices-tst.usmnpz.com.au/v1/mobile-api</string>
-				<string>https://apiservices-rgr.usmnpz.com.au/v1/mobile-api</string>
-				<string>https://apiservices.unisuper.com.au/v1/mobile-api</string>
-				<string>Custom</string>
-			</array>
-			<key>Titles</key>
-			<array>
-                <string>Mock</string>
-				<string>Dev</string>
-				<string>SIT</string>
-				<string>Regression</string>
-				<string>Prod</string>
-				<string>Custom</string>
-			</array>
-			<key>DefaultValue</key>
-			<string>https://apiservices-tst.usmnpz.com.au/v1/mobile-api</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
-			<string>Custom</string>
-			<key>Key</key>
-			<string>setting.bff.custom</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-			<key>Title</key>
-			<string>Dev Switch</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSChildPaneSpecifier</string>
-			<key>File</key>
-			<string>DevSwitches</string>
-			<key>Title</key>
-			<string>Dev Switch</string>
+			<string>setting.mock</string>
 		</dict>
 	</array>
 </dict>

@@ -9,16 +9,16 @@ import Foundation
 
 public protocol DevSwitching {
 
-    var publicRelease: Bool { get }
-    var releaseCasuMarzu: Bool { get }
+    var mock: Bool { get }
 }
 
 final class DevSwitch: DevSwitching {
-    @Switch(key: "publicRelease", defaultValue: false)
-    private(set) var publicRelease: Bool
-
-    @Switch(key: "releaseCasuMarzu", defaultValue: false)
-    private(set) var releaseCasuMarzu: Bool
+    @Switch(key: "mock", defaultValue: false)
+    private(set) var mock: Bool
+    
+    static let shared = DevSwitch()
+    
+    private init() {}
 }
 
 // MARK: - Models
@@ -46,7 +46,7 @@ extension DevSwitch {
         }
 
         private func fullKey(for key: String) -> String {
-            return "setting.devSwitch.\(key)"
+            return "setting.\(key)"
         }
     }
 }
